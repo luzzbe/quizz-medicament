@@ -2,7 +2,7 @@
 // Pipeline: BDPM (DC, DCI) + Open Medic (volumes, ATC) -> data/medicaments.json
 //
 // Run: node scripts/build-dataset.mjs
-// Env: MIN_BOITES_DC (default 50000), QUIZ_TOP_N (default 320), OPENMEDIC_YEAR (default 2024)
+// Env: MIN_BOITES_DC (default 50000), QUIZ_TOP_N (default 300), OPENMEDIC_YEAR (default 2024)
 
 import { createReadStream, createWriteStream, existsSync, mkdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
@@ -20,7 +20,7 @@ const DATA = join(ROOT, 'data');
 // Filtering happens at the DC level (after aggregating all presentations of a brand):
 // MIN_BOITES_DC = minimum total boxes delivered for a normalized brand to be kept.
 const MIN_BOITES_DC = Number(process.env.MIN_BOITES_DC ?? 50_000);
-const QUIZ_TOP_N = Number(process.env.QUIZ_TOP_N ?? 320);
+const QUIZ_TOP_N = Number(process.env.QUIZ_TOP_N ?? 300);
 const OPENMEDIC_YEAR = Number(process.env.OPENMEDIC_YEAR ?? 2024);
 
 const BDPM_FILES = {
@@ -269,13 +269,95 @@ function cleanDci(dci) {
   return s.trim();
 }
 
+function pedagogicClasse(dc, dcis, atc) {
+  const code = atc || '';
+  const name = comparable(dc);
+  const joinedDcis = comparable([...dcis].join(' '));
+
+  if (/^N02BE/.test(code) || /PARACETAMOL/.test(joinedDcis)) return 'Antalgiques non opioïdes';
+  if (/^N02A/.test(code) || /MORPHINE|OXYCODONE|CODEINE|TRAMADOL|BUPRENORPHINE|METHADONE/.test(joinedDcis)) return 'Antalgiques opioïdes';
+  if (/^M01A/.test(code) || /IBUPROFENE|KETOPROFENE|NAPROXENE|DICLOFENAC|FLURBIPROFENE/.test(joinedDcis)) return 'AINS';
+  if (/^B01AF/.test(code)) return 'Anticoagulants oraux directs (AOD)';
+  if (/^B01AB/.test(code)) return 'Héparines';
+  if (/^B01AA/.test(code)) return 'Antivitamines K (AVK)';
+  if (/^B01AC/.test(code) || /ACETYLSALICYLIQUE|ACETYLSALICYLATE|CLOPIDOGREL/.test(joinedDcis)) return 'Antiagrégants plaquettaires';
+  if (/^A10AB/.test(code)) return 'Insulines rapides';
+  if (/^A10AE/.test(code)) return 'Insulines lentes';
+  if (/^A10BA/.test(code) || /METFORMINE/.test(joinedDcis)) return 'Antidiabétiques oraux';
+  if (/^A10BK/.test(code)) return 'Antidiabétiques inhibiteurs SGLT2';
+  if (/^A10BJ/.test(code)) return 'Antidiabétiques analogues GLP-1';
+  if (/^J01CR/.test(code)) return 'Antibiotiques pénicillines + inhibiteur';
+  if (/^J01CA/.test(code)) return 'Antibiotiques pénicillines';
+  if (/^J01D/.test(code)) return 'Antibiotiques céphalosporines';
+  if (/^J01FA/.test(code)) return 'Antibiotiques macrolides';
+  if (/^J01/.test(code)) return 'Antibiotiques';
+  if (/^R03AC/.test(code)) return 'Bronchodilatateurs bêta-2 mimétiques';
+  if (/^R03BB/.test(code)) return 'Bronchodilatateurs anticholinergiques';
+  if (/^R03A|^R03B|^R03D/.test(code)) return 'Traitements inhalés respiratoires';
+  if (/^R06/.test(code)) return 'Antihistaminiques';
+  if (/^A02BC/.test(code)) return 'Inhibiteurs de la pompe à protons (IPP)';
+  if (/^A02B|^A02A/.test(code)) return 'Antiulcéreux / antiacides';
+  if (/^A03AX12/.test(code) || /PHLOROGLUCINOL|TRIMETHYLPHLOROGLUCINOL/.test(joinedDcis)) {
+    return 'Antispasmodiques';
+  }
+  if (/^A06/.test(code)) return 'Laxatifs';
+  if (/^A04/.test(code)) return 'Antiémétiques';
+  if (/^A07/.test(code)) return 'Antidiarrhéiques';
+  if (/^C03CA/.test(code) || /FUROSEMIDE/.test(joinedDcis)) return 'Diurétiques de l’anse';
+  if (/^C03A/.test(code)) return 'Diurétiques thiazidiques';
+  if (/^C09/.test(code)) return 'Antihypertenseurs IEC/ARA2';
+  if (/^C08CA/.test(code)) return 'Inhibiteurs calciques';
+  if (/^C07/.test(code)) return 'Bêtabloquants';
+  if (/^C10/.test(code)) return 'Hypolipémiants';
+  if (/^C01/.test(code)) return 'Médicaments cardiovasculaires';
+  if (/^N05BA/.test(code)) return 'Benzodiazépines anxiolytiques';
+  if (/^N05CD|^N05CF/.test(code)) return 'Hypnotiques';
+  if (/^N05A/.test(code)) return 'Antipsychotiques';
+  if (/^N06A/.test(code)) return 'Antidépresseurs';
+  if (/^N03A/.test(code)) return 'Antiépileptiques';
+  if (/^N04B/.test(code)) return 'Antiparkinsoniens';
+  if (/^H03AA/.test(code) || /LEVOTHYROXINE/.test(joinedDcis)) return 'Hormones thyroïdiennes';
+  if (/^H02/.test(code)) return 'Corticoïdes systémiques';
+  if (/^D07|^R01AD|^R03BA|^S01BA|^S01CA|^S02CA|^S03CA/.test(code)) return 'Corticoïdes';
+  if (/^B03A/.test(code)) return 'Supplémentation en fer';
+  if (/^A11CC/.test(code)) return 'Vitamine D';
+  if (/^A12AA|^A12AX/.test(code)) return 'Supplémentation en calcium';
+  if (/^A12BA/.test(code) || /POTASSIUM|CHLORURE DE POTASSIUM/.test(joinedDcis)) return 'Supplémentation en potassium';
+  if (/^D08/.test(code)) return 'Antiseptiques';
+  if (/^D01A|^G01A|^J02A/.test(code)) return 'Antifongiques';
+  if (/^M04/.test(code)) return 'Antigoutteux';
+  if (/^S01G/.test(code)) return 'Antiallergiques ophtalmiques';
+  if (/^S01A|^S02A|^S03A/.test(code)) return 'Antiinfectieux ophtalmiques/ORL';
+  if (/^S01B/.test(code)) return 'Anti-inflammatoires ophtalmiques';
+  if (/^V03A/.test(code)) return 'Médicaments de correction métabolique';
+  if (/^A11/.test(code)) return 'Vitamines';
+  if (/^A12/.test(code)) return 'Supplémentation minérale';
+  if (/^J07/.test(code)) return 'Vaccins';
+  return null;
+}
+
 const LAB_NAME_RE = /\b(ARROW|BGR|BIOGARAN|CRISTERS|EG|EVOLUGEN|MYLAN|SANDOZ|TEVA|VIATRIS|ZENTIVA|ZYDUS)\b/i;
 const QUIZ_KEEP_DC_RE = /^(DOLIPRANE|DAFALGAN|EFFERALGAN|KARDEGIC|ELIQUIS|XARELTO|LOVENOX|INNOHEP|COUMADINE|PREVISCAN|VENTOLINE|LASILIX|LOXEN|LEVOTHYROX|SPASFON|FORXIGA|JARDIANCE|OZEMPIC|TRULICITY|SKENAN|ACTISKENAN|OXYNORMORO|SUBUTEX|METHADONE|TEMESTA|LEXOMIL|SERESTA|HALDOL|LOXAPAC|DEPAKINE|KEPPRA|LAMICTAL|NOVORAPID|LANTUS|TOUJEO|TRESIBA|HUMALOG|INEXIUM|GAVISCON|VOGALENE|TIORFAN|TARDYFERON|DIFFU-K|KALEORID|AUGMENTIN|PYOSTACINE|ZITHROMAX|FOSFOMYCINE|BACTRIM|BETADINE|BISEPTINE)\b/i;
 const QUIZ_RELEVANT_RE = /parac|anilides|opium|opio|morphine|analges|anti.?inflamm|ains|salicylique|anticoagul|antiagr|hepar|vitamines? k|avk|insuline|diabet|hypogly|biguanide|glucose|glp|sodium-glucose|antib|penicill|cephalospor|macrolide|quinolone|tetracycline|lincosamide|sulfamide|imidazole|triazole|antiviral|antifong|benzodiaz|anxiol|antidep|antipsy|neurolep|antiepilep|dopa|parkinson|hypnot|diuret|angiotensine|enzyme de conversion|iec|beta.?blo|betablo|dihydropyridine|calcique|statine|hmg|thiazid|alpha.?blo|asthme|obstructifs|bêta-2|beta-2|adrenerg|anticholinergiques inhal|corticoides|glucocorticoides|pompe à protons|ipp|antiemet|antidiarr|laxatif|troubles fonctionnels intestinaux|reflux|ulc|potass|sodium|calcium|fer |vitamine|thyroid|antisept|desinfect|vaccin/i;
+const QUIZ_EXCLUDE_DC_RE = /^(BEXSERO|BOOSTRIXTETRA|ENGERIX B|GARDASIL|HAVRIX|HEXYON|INFANRIX HEXA|NIMENRIX|PNEUMOVAX|PREVENAR|PRIORIX|REPEVAX|ROTARIX|TETRAVAC|VAXELIS|VAXNEUVANCE|ACULAR|ALONEST|ALLERGODIL|ANTIBIO SYNALAR|AURICULARUM|CROMABAK|CROMADOSES|CROMOPTIC|DULCILARMES|INDOCOLLYRE|MULTICROM|NAABAK|OCUFEN|OPTICRON|AMYCOR|AMYCOR ONYCHOSET|CANDAZOL|FAZOL|FONX|GYNO-PEVARYL|LOMEXIN|MONAZOL|MYCOSTER|ONYTEC|OROFLUCO|POLYGYNAX|BETADINE SCRUB|DIASEPTYL|SEPTIVON|SEPTEAL|CYTEAL|DAKIN|OTIPAX|ATROVENT NASAL|NIFLUGEL|VOLTARENE EMULGEL|IBUFETUM|DICLOFENAC REF|FLECTOR|FLAMMAZINE|DULCILARMES|ARTISIAL|PHOSPHONEUROS|BIONOLYTE|SMOFKABIVEN|CARBOSYMAG|MOXYDAR|XOLAAM|ZYMADUO|OROCAL|CACIT|CALCIDOSE|CALTRATE|FIXICAL|IDEOS|CALCIPRAT|MOVIPREP|XIMEPEG|IZINOVA|COLOPEG|PICOPREP|NORMACOL|EDUCTYL|PSYLIA|SPAGULAX|ANTARENE|ADVILMED|PROFEMIGR|NIFLURIL|SURGAM|NABUCOX|PONSTYL|BREXIN|ACUPAN|TUSSIDANE|POLERY|TUSSIPAX|PADERYL|KIPOS|LUZADEL|BICAFRES|GELOX|RESIKALI|LEDERFOLINE)\b/i;
+
+function isPoorQuizCandidate(med) {
+  const code = med.atc || '';
+  const name = med.dc || '';
+  const classe = med.classe || '';
+  if (QUIZ_KEEP_DC_RE.test(name)) return false;
+  if (QUIZ_EXCLUDE_DC_RE.test(name)) return true;
+  if (/^J07/.test(code)) return true; // Vaccine DCI labels are long and poor quiz material here.
+  if (/^S01|^S02|^S03/.test(code)) return true; // Mostly local ophthalmology/ORL, less useful for this general IDE quiz.
+  if (/^D01|^D06|^D07|^M02/.test(code)) return true; // Topical dermatology/rheumatology noise.
+  if (/^G01/.test(code)) return true; // Local gynecology, low yield for the current quiz.
+  if (/ophtalm|topique|dermat|nasales/i.test(classe)) return true;
+  return false;
+}
 
 function isQuizRelevant(med) {
   const searchable = `${med.dc} ${med.dcis.join(' ')} ${med.classe || ''}`;
-  return !LAB_NAME_RE.test(med.dc) && (QUIZ_KEEP_DC_RE.test(med.dc) || QUIZ_RELEVANT_RE.test(searchable));
+  return !LAB_NAME_RE.test(med.dc) && !isPoorQuizCandidate(med) && (QUIZ_KEEP_DC_RE.test(med.dc) || QUIZ_RELEVANT_RE.test(searchable));
 }
 
 function isTrivialDcDciMatch(med) {
@@ -400,6 +482,7 @@ async function main() {
         if (lib3) classe = softCase(lib3);
       }
     }
+    classe = pedagogicClasse(dc, agg.dcis, atc5 || atc4) ?? classe;
     if (!classe) withoutClasse++;
     out.push({
       dc,

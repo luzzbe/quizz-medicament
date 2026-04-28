@@ -5,7 +5,7 @@
       "PARACÉTAMOL"
     ],
     "atc": "N02BE01",
-    "classe": "Anilides (paracétamol)"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "DAFALGAN",
@@ -13,7 +13,7 @@
       "PARACÉTAMOL"
     ],
     "atc": "N02BE01",
-    "classe": "Anilides (paracétamol)"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "KARDEGIC",
@@ -30,7 +30,7 @@
       "PARACÉTAMOL"
     ],
     "atc": "N02BE01",
-    "classe": "Anilides (paracétamol)"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "SERESTA",
@@ -46,7 +46,7 @@
       "CHOLÉCALCIFÉROL"
     ],
     "atc": "A11CC05",
-    "classe": "Vitamine d et analogues"
+    "classe": "Vitamine D"
   },
   {
     "dc": "LEVOTHYROX",
@@ -54,7 +54,7 @@
       "LÉVOTHYROXINE"
     ],
     "atc": "H03AA01",
-    "classe": "Hormones thyroidiennes"
+    "classe": "Hormones thyroïdiennes"
   },
   {
     "dc": "ELIQUIS",
@@ -62,7 +62,7 @@
       "APIXABAN"
     ],
     "atc": "B01AF02",
-    "classe": "Anticoagulants oraux directs (anti-Xa)"
+    "classe": "Anticoagulants oraux directs (AOD)"
   },
   {
     "dc": "LAMALINE",
@@ -73,7 +73,7 @@
       "POUDRE D'OPIUM"
     ],
     "atc": "N02BE71",
-    "classe": "Anilides (paracétamol)"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "VENTOLINE",
@@ -81,7 +81,7 @@
       "SALBUTAMOL"
     ],
     "atc": "R03AC02",
-    "classe": "Bêta-2 agonistes inhalés sélectifs"
+    "classe": "Bronchodilatateurs bêta-2 mimétiques"
   },
   {
     "dc": "DAFALGAN CODEINE",
@@ -90,7 +90,7 @@
       "PARACÉTAMOL"
     ],
     "atc": "N02AJ06",
-    "classe": "Opiaces en association avec analgesiques non-opioides"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "IZALGI",
@@ -99,7 +99,7 @@
       "POUDRE D'OPIUM"
     ],
     "atc": "N02BE71",
-    "classe": "Anilides (paracétamol)"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "SPASFON",
@@ -110,7 +110,7 @@
       "TRIMÉTHYLPHLOROGLUCINOL"
     ],
     "atc": "A03AX12",
-    "classe": "Autres medicaments pour les troubles fonctionnels intestinaux"
+    "classe": "Antispasmodiques"
   },
   {
     "dc": "UVEDOSE",
@@ -118,7 +118,7 @@
       "CHOLÉCALCIFÉROL"
     ],
     "atc": "A11CC05",
-    "classe": "Vitamine d et analogues"
+    "classe": "Vitamine D"
   },
   {
     "dc": "DIFFU-K",
@@ -126,7 +126,7 @@
       "CHLORURE DE POTASSIUM"
     ],
     "atc": "A12BA01",
-    "classe": "Derives potassiques"
+    "classe": "Supplémentation en potassium"
   },
   {
     "dc": "SPASFON LYOC",
@@ -135,7 +135,7 @@
       "PHLOROGLUCINOL HYDRATÉ"
     ],
     "atc": "A03AX12",
-    "classe": "Autres medicaments pour les troubles fonctionnels intestinaux"
+    "classe": "Antispasmodiques"
   },
   {
     "dc": "FORXIGA",
@@ -143,7 +143,7 @@
       "DAPAGLIFLOZINE PROPANEDIOL"
     ],
     "atc": "A10BK01",
-    "classe": "Inhibiteurs du sodium-glucose co-transporteur 2"
+    "classe": "Antidiabétiques inhibiteurs SGLT2"
   },
   {
     "dc": "METEOSPASMYL",
@@ -155,20 +155,12 @@
     "classe": "Autres medicaments pour les troubles fonctionnels intestinaux"
   },
   {
-    "dc": "FLECTOR",
-    "dcis": [
-      "ÉPOLAMINE DE DICLOFÉNAC"
-    ],
-    "atc": "M02AA15",
-    "classe": "Antiinflammatoires non steroidiens a usage topique"
-  },
-  {
     "dc": "PYOSTACINE",
     "dcis": [
       "PRISTINAMYCINE"
     ],
     "atc": "J01FG01",
-    "classe": "Steptogramines (synergistines)"
+    "classe": "Antibiotiques"
   },
   {
     "dc": "GAVISCON",
@@ -179,7 +171,7 @@
       "SODIUM (BICARBONATE DE)"
     ],
     "atc": "A02BX13",
-    "classe": "Autres medicaments pour l'ulcère peptique et le reflux gastrooesophagien (rgo)"
+    "classe": "Antiulcéreux / antiacides"
   },
   {
     "dc": "SUBUTEX",
@@ -187,7 +179,7 @@
       "BUPRÉNORPHINE"
     ],
     "atc": "N07BC01",
-    "classe": "Medicaments utilises dans la dependance aux opioïdes"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "ASPIRINE PROTECT",
@@ -204,15 +196,7 @@
       "PARACÉTAMOL"
     ],
     "atc": "N02AJ06",
-    "classe": "Opiaces en association avec analgesiques non-opioides"
-  },
-  {
-    "dc": "STAGID",
-    "dcis": [
-      "METFORMINE (EMBONATE DE)"
-    ],
-    "atc": "A10BA02",
-    "classe": "Biguanides"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "LIPTRUZET",
@@ -221,7 +205,7 @@
       "ÉZÉTIMIBE"
     ],
     "atc": "C10BA05",
-    "classe": "Inhibiteurs de lhmg -coa reductase en association avec dautres agents modifiant les lipides"
+    "classe": "Hypolipémiants"
   },
   {
     "dc": "ACTISKENAN",
@@ -229,15 +213,7 @@
       "MORPHINE"
     ],
     "atc": "N02AA01",
-    "classe": "Alcaloides naturels de l'opium"
-  },
-  {
-    "dc": "RHINOMAXIL",
-    "dcis": [
-      "BÉCLOMÉTASONE"
-    ],
-    "atc": "R01AD01",
-    "classe": "Corticoides"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "RESITUNE",
@@ -254,7 +230,7 @@
       "SULFATE FERREUX DESSÉCHÉ"
     ],
     "atc": "B03AA07",
-    "classe": "Fer bivalent, preparations orales"
+    "classe": "Supplémentation en fer"
   },
   {
     "dc": "KLIPAL",
@@ -263,7 +239,7 @@
       "PARACÉTAMOL"
     ],
     "atc": "N02AJ06",
-    "classe": "Opiaces en association avec analgesiques non-opioides"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "LOVENOX",
@@ -271,15 +247,7 @@
       "ÉNOXAPARINE"
     ],
     "atc": "B01AB05",
-    "classe": "Héparines (HBPM, HNF)"
-  },
-  {
-    "dc": "IBUFETUM",
-    "dcis": [
-      "IBUPROFÈNE"
-    ],
-    "atc": "M02AA13",
-    "classe": "Antiinflammatoires non steroidiens a usage topique"
+    "classe": "Héparines"
   },
   {
     "dc": "SKENAN L.P.",
@@ -287,7 +255,7 @@
       "MORPHINE"
     ],
     "atc": "N02AA01",
-    "classe": "Alcaloides naturels de l'opium"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "OZEMPIC",
@@ -295,7 +263,7 @@
       "SÉMAGLUTIDE"
     ],
     "atc": "A10BJ06",
-    "classe": "Analogues des recepteurs gluacon-like peptide-1"
+    "classe": "Antidiabétiques analogues GLP-1"
   },
   {
     "dc": "FUNGIZONE",
@@ -303,16 +271,7 @@
       "AMPHOTÉRICINE B"
     ],
     "atc": "J02AA01",
-    "classe": "Antibiotiques"
-  },
-  {
-    "dc": "NORMACOL LAVEMENT",
-    "dcis": [
-      "SODIUM (DIHYDROGÉNOPHOSPHATE DE)",
-      "SODIUM (HYDROGÉNOPHOSPHATE DE) DODÉCAHYDRATÉ"
-    ],
-    "atc": "A06AG20",
-    "classe": "Lavements"
+    "classe": "Antifongiques"
   },
   {
     "dc": "XARELTO",
@@ -320,15 +279,7 @@
       "RIVAROXABAN"
     ],
     "atc": "B01AF01",
-    "classe": "Anticoagulants oraux directs (anti-Xa)"
-  },
-  {
-    "dc": "SPAGULAX",
-    "dcis": [
-      "ISPAGHUL (GRAINE D'), TÉGUMENT DE LA"
-    ],
-    "atc": "A06AC01",
-    "classe": "Laxatifs de lest"
+    "classe": "Anticoagulants oraux directs (AOD)"
   },
   {
     "dc": "SPIFEN",
@@ -336,7 +287,7 @@
       "IBUPROFÈNE"
     ],
     "atc": "M01AE01",
-    "classe": "AINS - dérivés de l'acide propionique"
+    "classe": "AINS"
   },
   {
     "dc": "BETADINE SCRUB",
@@ -344,7 +295,7 @@
       "POVIDONE IODÉE"
     ],
     "atc": "D08AG02",
-    "classe": "Derives iodes"
+    "classe": "Antiseptiques"
   },
   {
     "dc": "TRULICITY",
@@ -352,23 +303,7 @@
       "DULAGLUTIDE"
     ],
     "atc": "A10BJ05",
-    "classe": "Analogues des recepteurs gluacon-like peptide-1"
-  },
-  {
-    "dc": "REPEVAX",
-    "dcis": [
-      "ANATOXINE DIPHTÉRIQUE",
-      "ANATOXINE TÉTANIQUE",
-      "ANTIGÈNE PERTUSSIQUE : ANATOXINE PERTUSSIQUE",
-      "ANTIGÈNE PERTUSSIQUE : HÉMAGGLUTININE FILAMENTEUSE",
-      "ANTIGÈNE PERTUSSIQUE : PERTACTINE",
-      "ANTIGÈNES PERTUSSIQUES : FIMBRIAE TYPE 2 ET 3",
-      "VIRUS POLIOMYELITIQUE SOUCHE MAHONEY DE TYPE 1 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE MEF-1 DE TYPE 2 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE SAUKETT DE TYPE 3 INACTIVÉ"
-    ],
-    "atc": "J07CA02",
-    "classe": "Vaccins bacteriens et viraux associes"
+    "classe": "Antidiabétiques analogues GLP-1"
   },
   {
     "dc": "OXYNORMORO",
@@ -376,24 +311,7 @@
       "OXYCODONE"
     ],
     "atc": "N02AA05",
-    "classe": "Alcaloides naturels de l'opium"
-  },
-  {
-    "dc": "SYMBICORT TURBUHALER",
-    "dcis": [
-      "BUDÉSONIDE",
-      "FORMOTÉROL"
-    ],
-    "atc": "R03AK07",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
-  },
-  {
-    "dc": "INDOCOLLYRE",
-    "dcis": [
-      "INDOMÉTACINE"
-    ],
-    "atc": "S01BC01",
-    "classe": "Antiinflammatoires non steroidiens"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "LAMICTAL",
@@ -401,7 +319,7 @@
       "LAMOTRIGINE"
     ],
     "atc": "N03AX09",
-    "classe": "Autres antiepileptiques"
+    "classe": "Antiépileptiques"
   },
   {
     "dc": "ENTRESTO",
@@ -409,24 +327,7 @@
       "COMPLEXE SODIQUE SACUBITRIL VALSARTAN HÉMIPENTAHYDRATÉ"
     ],
     "atc": "C09DX04",
-    "classe": "Antagonistes de l angiotensine ii, autres associations"
-  },
-  {
-    "dc": "PIVALONE",
-    "dcis": [
-      "TIXOCORTOL"
-    ],
-    "atc": "R01AD07",
-    "classe": "Corticoides"
-  },
-  {
-    "dc": "STERDEX",
-    "dcis": [
-      "DEXAMÉTHASONE",
-      "OXYTÉTRACYCLINE"
-    ],
-    "atc": "S01CA01",
-    "classe": "Corticoides et antiinfectieux en association"
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "COVERAM",
@@ -435,25 +336,7 @@
       "PÉRINDOPRIL ARGININE"
     ],
     "atc": "C09BB04",
-    "classe": "Inhibiteurs de l'enzyme de conversion (iec) et inhibiteurs calciques"
-  },
-  {
-    "dc": "DYMISTA",
-    "dcis": [
-      "AZÉLASTINE",
-      "FLUTICASONE"
-    ],
-    "atc": "R01AD58",
-    "classe": "Corticoides"
-  },
-  {
-    "dc": "RELVAR ELLIPTA",
-    "dcis": [
-      "FLUTICASONE",
-      "TRIFÉNATATE DE VILANTÉROL"
-    ],
-    "atc": "R03AK10",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "TRANSIPEG",
@@ -461,7 +344,7 @@
       "MACROGOL 3350"
     ],
     "atc": "A06AD65",
-    "classe": "Laxatifs osmotiques"
+    "classe": "Laxatifs"
   },
   {
     "dc": "COUMADINE",
@@ -477,24 +360,7 @@
       "FLURBIPROFÈNE"
     ],
     "atc": "M01AE09",
-    "classe": "AINS - dérivés de l'acide propionique"
-  },
-  {
-    "dc": "CACIT VITAMINE D3",
-    "dcis": [
-      "CARBONATE DE CALCIUM",
-      "CONCENTRAT DE CHOLÉCALCIFÉROL, FORME PULVÉRULENTE"
-    ],
-    "atc": "A12AX",
-    "classe": "Calcium en association avec d'autres substances"
-  },
-  {
-    "dc": "TUSSIDANE",
-    "dcis": [
-      "BROMHYDRATE DE DEXTROMÉTHORPHANE"
-    ],
-    "atc": "R05DA09",
-    "classe": "Alcaloides de l'opium et derives"
+    "classe": "AINS"
   },
   {
     "dc": "JARDIANCE",
@@ -502,7 +368,7 @@
       "EMPAGLIFLOZINE"
     ],
     "atc": "A10BK03",
-    "classe": "Inhibiteurs du sodium-glucose co-transporteur 2"
+    "classe": "Antidiabétiques inhibiteurs SGLT2"
   },
   {
     "dc": "MODOPAR",
@@ -511,16 +377,7 @@
       "LÉVODOPA"
     ],
     "atc": "N04BA02",
-    "classe": "Dopa et derives"
-  },
-  {
-    "dc": "DIPROSTENE",
-    "dcis": [
-      "BÉTAMÉTHASONE",
-      "BÉTAMÉTHASONE (PHOSPHATE DISODIQUE DE)"
-    ],
-    "atc": "H02AB01",
-    "classe": "Glucocorticoides"
+    "classe": "Antiparkinsoniens"
   },
   {
     "dc": "CLARADOL",
@@ -529,35 +386,7 @@
       "PARACÉTAMOL"
     ],
     "atc": "N02BE51",
-    "classe": "Anilides (paracétamol)"
-  },
-  {
-    "dc": "PREVENAR",
-    "dcis": [
-      "OLIGOSIDE PNEUMOCOCCIQUE SÉROTYPE 18C CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE DE SÉROTYPE 22F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE DE SÉROTYPE 33F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 1 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 10A CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 11A CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 12F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 14 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 15B CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 18C CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 19A CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 19F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 23F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 3 CONJUGUÉ À LA PROTÉINE VECTRICE CRM 197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 4 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 5 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 6A CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 6B CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 7F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 8 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 9V CONJUGUÉ À LA PROTÉINE VECTRICE CRM197"
-    ],
-    "atc": "J07AL02",
-    "classe": "Vaccins antipneumococciques"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "INEXIUM",
@@ -567,22 +396,6 @@
     ],
     "atc": "A02BC05",
     "classe": "Inhibiteurs de la pompe à protons (IPP)"
-  },
-  {
-    "dc": "L-THYROXIN HENNING",
-    "dcis": [
-      "LÉVOTHYROXINE"
-    ],
-    "atc": "H03AA01",
-    "classe": "Hormones thyroidiennes"
-  },
-  {
-    "dc": "LOCOID",
-    "dcis": [
-      "HYDROCORTISONE (BUTYRATE D')"
-    ],
-    "atc": "D07AB02",
-    "classe": "Corticoides d'activite moderee (groupe ii)"
   },
   {
     "dc": "LEXOMIL",
@@ -601,7 +414,7 @@
       "MACROGOL 3350"
     ],
     "atc": "A06AD65",
-    "classe": "Laxatifs osmotiques"
+    "classe": "Laxatifs"
   },
   {
     "dc": "LOXEN LP",
@@ -609,15 +422,7 @@
       "NICARDIPINE"
     ],
     "atc": "C08CA04",
-    "classe": "Derives de la dihydropyridine"
-  },
-  {
-    "dc": "AZYTER",
-    "dcis": [
-      "AZITHROMYCINE"
-    ],
-    "atc": "S01AA26",
-    "classe": "Antibiotiques"
+    "classe": "Inhibiteurs calciques"
   },
   {
     "dc": "DEPAKINE CHRONO",
@@ -627,7 +432,7 @@
       "VALPROATE DE SODIUM"
     ],
     "atc": "N03AG01",
-    "classe": "Derives d'acide gras"
+    "classe": "Antiépileptiques"
   },
   {
     "dc": "TIORFAN",
@@ -635,7 +440,7 @@
       "RACÉCADOTRIL"
     ],
     "atc": "A07XA04",
-    "classe": "Autres antidiarrheiques"
+    "classe": "Antidiarrhéiques"
   },
   {
     "dc": "VITAMINE B12 GERDA",
@@ -651,16 +456,7 @@
       "INSULINE ASPARTE"
     ],
     "atc": "A10AB05",
-    "classe": "Insulines et analogues daction rapide pour injection"
-  },
-  {
-    "dc": "EDUCTYL",
-    "dcis": [
-      "BICARBONATE DE SODIUM",
-      "TARTRATE ACIDE DE POTASSIUM"
-    ],
-    "atc": "A06AX02",
-    "classe": "Autres laxatifs"
+    "classe": "Insulines rapides"
   },
   {
     "dc": "BISEPTINE",
@@ -670,25 +466,7 @@
       "CHLORHEXIDINE (DIGLUCONATE DE)"
     ],
     "atc": "D08AC52",
-    "classe": "Biguanides et amidines"
-  },
-  {
-    "dc": "FLIXOTIDE",
-    "dcis": [
-      "FLUTICASONE"
-    ],
-    "atc": "R03BA05",
-    "classe": "Glucocorticoides"
-  },
-  {
-    "dc": "TIMOFEROL",
-    "dcis": [
-      "ACIDE ASCORBIQUE",
-      "SULFATE FERREUX",
-      "SULFATE FERREUX DESSÉCHÉ"
-    ],
-    "atc": "B03AA10",
-    "classe": "Fer bivalent, preparations orales"
+    "classe": "Antiseptiques"
   },
   {
     "dc": "TOUJEO",
@@ -696,16 +474,7 @@
       "INSULINE GLARGINE"
     ],
     "atc": "A10AE04",
-    "classe": "Insulines et analogues daction lente pour injection"
-  },
-  {
-    "dc": "OROCAL VITAMINE D3",
-    "dcis": [
-      "CARBONATE DE CALCIUM",
-      "CONCENTRAT DE CHOLÉCALCIFÉROL, FORME PULVÉRULENTE"
-    ],
-    "atc": "A12AX",
-    "classe": "Calcium en association avec d'autres substances"
+    "classe": "Insulines lentes"
   },
   {
     "dc": "ASPEGIC",
@@ -713,7 +482,7 @@
       "DL-LYSINE (ACÉTYLSALICYLATE DE)"
     ],
     "atc": "N02BA01",
-    "classe": "Acide salicylique et derives"
+    "classe": "Antiagrégants plaquettaires"
   },
   {
     "dc": "LOXAPAC",
@@ -721,18 +490,7 @@
       "LOXAPINE"
     ],
     "atc": "N05AH01",
-    "classe": "Diazepines, oxazepines et thiazepines"
-  },
-  {
-    "dc": "BEXSERO SUSPENSION INJECTABLE EN SERINGUE PRÉREMPLIE. VACCIN MÉNINGOCOCCIQUE GROUPE B (ADNR",
-    "dcis": [
-      "PROTÉINE DE FUSION RECOMBINANTE FHBP DE NEISSERIA MENINGITIDIS GROUPE B",
-      "PROTÉINE DE FUSION RECOMBINANTE NHBA DE NEISSERIA MENINGITIDIS GROUPE B",
-      "PROTÉINE RECOMBINANTE NADA DE NEISSERIA MENINGITIDIS GROUPE B",
-      "VÉSICULES DE MEMBRANE EXTERNE (OMV) DE NEISSERIA MENINGITIDIS GROUPE B"
-    ],
-    "atc": "J07AH09",
-    "classe": "Vaccins antimeningococciques"
+    "classe": "Antipsychotiques"
   },
   {
     "dc": "HUMALOG",
@@ -741,32 +499,7 @@
       "INSULINE LISPRO RECOMBINANTE"
     ],
     "atc": "A10AB04",
-    "classe": "Insulines et analogues daction rapide pour injection"
-  },
-  {
-    "dc": "RINOCLENIL",
-    "dcis": [
-      "BÉCLOMÉTASONE"
-    ],
-    "atc": "R01AD01",
-    "classe": "Corticoides"
-  },
-  {
-    "dc": "SERETIDE DISKUS",
-    "dcis": [
-      "FLUTICASONE",
-      "SALMÉTÉROL"
-    ],
-    "atc": "R03AK06",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
-  },
-  {
-    "dc": "DEXAFREE",
-    "dcis": [
-      "PHOSPHATE SODIQUE DE DEXAMÉTHASONE"
-    ],
-    "atc": "S01BA01",
-    "classe": "Corticoides non associes"
+    "classe": "Insulines rapides"
   },
   {
     "dc": "VOGALENE",
@@ -774,31 +507,7 @@
       "MÉTOPIMAZINE"
     ],
     "atc": "A04AD05",
-    "classe": "Autres antiemetiques"
-  },
-  {
-    "dc": "GARDASIL",
-    "dcis": [
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 11",
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 16",
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 18",
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 31",
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 33",
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 45",
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 52",
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 58",
-      "PROTÉINE L1 RECOMBINANTE ADSORBÉE DU VIRUS HUMAIN PAPILLOMAVIRUS HPV TYPE 6"
-    ],
-    "atc": "J07BM03",
-    "classe": "Vaccins contre le papillomavirus"
-  },
-  {
-    "dc": "DIPROSONE",
-    "dcis": [
-      "BÉTAMÉTHASONE"
-    ],
-    "atc": "D07AC01",
-    "classe": "Corticoides d'activite forte (groupe iii)"
+    "classe": "Antiémétiques"
   },
   {
     "dc": "BETADINE DERMIQUE",
@@ -806,24 +515,7 @@
       "POVIDONE IODÉE"
     ],
     "atc": "D08AG02",
-    "classe": "Derives iodes"
-  },
-  {
-    "dc": "NERISONE",
-    "dcis": [
-      "DIFLUCORTOLONE"
-    ],
-    "atc": "D07AC06",
-    "classe": "Corticoides d'activite forte (groupe iii)"
-  },
-  {
-    "dc": "INNOVAIR",
-    "dcis": [
-      "BÉCLOMÉTASONE",
-      "FORMOTÉROL"
-    ],
-    "atc": "R03AK08",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
+    "classe": "Antiseptiques"
   },
   {
     "dc": "EUPRESSYL LP",
@@ -839,7 +531,7 @@
       "MÉTOPIMAZINE"
     ],
     "atc": "A04AD05",
-    "classe": "Autres antiemetiques"
+    "classe": "Antiémétiques"
   },
   {
     "dc": "KALEORID LP",
@@ -848,7 +540,7 @@
       "POTASSIUM (CHLORURE DE)"
     ],
     "atc": "A12BA01",
-    "classe": "Derives potassiques"
+    "classe": "Supplémentation en potassium"
   },
   {
     "dc": "MELAXOSE",
@@ -858,25 +550,7 @@
       "VASELINE"
     ],
     "atc": "A06AA51",
-    "classe": "Laxatifs lubrifiants"
-  },
-  {
-    "dc": "PRIORIX",
-    "dcis": [
-      "VIRUS DE LA ROUGEOLE, SOUCHE SCHWARTZ, VIVANT, ATTÉNUÉ",
-      "VIRUS DES OREILLONS (SOUCHE RIT 4385 DERIVÉE DE LA SOUCHE JERYL LYNN) ATTENUÉ",
-      "VIRUS RUBÉOLEUX (SOUCHE WISTAR RA 27/3) ATTÉNUÉ"
-    ],
-    "atc": "J07BD52",
-    "classe": "Vaccins contre la rougeole"
-  },
-  {
-    "dc": "NAABAK",
-    "dcis": [
-      "ACIDE N-ACÉTYL ASPARTYL GLUTAMIQUE (SEL DE SODIUM)"
-    ],
-    "atc": "S01GX03",
-    "classe": "Autres antiallergiques"
+    "classe": "Laxatifs"
   },
   {
     "dc": "LANTUS SOLOSTAR",
@@ -884,7 +558,7 @@
       "INSULINE GLARGINE"
     ],
     "atc": "A10AE04",
-    "classe": "Insulines et analogues daction lente pour injection"
+    "classe": "Insulines lentes"
   },
   {
     "dc": "PREVISCAN",
@@ -895,29 +569,12 @@
     "classe": "Antivitamines K (AVK)"
   },
   {
-    "dc": "TRIDESONIT",
-    "dcis": [
-      "DÉSONIDE"
-    ],
-    "atc": "D07AB08",
-    "classe": "Corticoides d'activite moderee (groupe ii)"
-  },
-  {
     "dc": "ABASAGLAR",
     "dcis": [
       "INSULINE GLARGINE"
     ],
     "atc": "A10AE04",
-    "classe": "Insulines et analogues daction lente pour injection"
-  },
-  {
-    "dc": "INNOVAIR NEXTHALER",
-    "dcis": [
-      "BÉCLOMÉTASONE",
-      "FORMOTÉROL"
-    ],
-    "atc": "R03AK08",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
+    "classe": "Insulines lentes"
   },
   {
     "dc": "KEPPRA",
@@ -925,7 +582,7 @@
       "LÉVÉTIRACÉTAM"
     ],
     "atc": "N03AX14",
-    "classe": "Autres antiepileptiques"
+    "classe": "Antiépileptiques"
   },
   {
     "dc": "AIROMIR AUTOHALER",
@@ -933,7 +590,7 @@
       "SALBUTAMOL"
     ],
     "atc": "R03AC02",
-    "classe": "Bêta-2 agonistes inhalés sélectifs"
+    "classe": "Bronchodilatateurs bêta-2 mimétiques"
   },
   {
     "dc": "INNOHEP",
@@ -941,23 +598,7 @@
       "TINZAPARINE"
     ],
     "atc": "B01AB10",
-    "classe": "Héparines (HBPM, HNF)"
-  },
-  {
-    "dc": "HEXYON",
-    "dcis": [
-      "ANATOXINE DIPHTÉRIQUE",
-      "ANATOXINE TÉTANIQUE",
-      "ANTIGÈNE COQUELUCHEUX : ANATOXINE",
-      "ANTIGÈNE COQUELUCHEUX : HÉMAGGLUTININE FILAMENTEUSE",
-      "ANTIGÈNE DE SURFACE DE L'HÉPATITE B RECOMBINANT",
-      "POLYOSIDE HAEMOPHILUS INFLUENZAE TYPE B CONJUGUÉ À L'ANATOXINE TÉTANIQUE",
-      "VIRUS POLIOMYELITIQUE SOUCHE MAHONEY DE TYPE 1 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE MEF-1 DE TYPE 2 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE SAUKETT DE TYPE 3 INACTIVÉ"
-    ],
-    "atc": "J07CA09",
-    "classe": "Vaccins bacteriens et viraux associes"
+    "classe": "Héparines"
   },
   {
     "dc": "LIPOROSA",
@@ -967,7 +608,7 @@
       "ÉZÉTIMIBE"
     ],
     "atc": "C10BA06",
-    "classe": "Inhibiteurs de lhmg -coa reductase en association avec dautres agents modifiant les lipides"
+    "classe": "Hypolipémiants"
   },
   {
     "dc": "TRANXENE",
@@ -978,28 +619,12 @@
     "classe": "Benzodiazépines anxiolytiques"
   },
   {
-    "dc": "MONAZOL",
-    "dcis": [
-      "SERTACONAZOLE"
-    ],
-    "atc": "D01AC14",
-    "classe": "Derives imidazoles et triazoles"
-  },
-  {
-    "dc": "DULCILARMES",
-    "dcis": [
-      "POVIDONE"
-    ],
-    "atc": "S01XA20",
-    "classe": "Autres medicaments ophtalmologiques"
-  },
-  {
     "dc": "ESIDREX",
     "dcis": [
       "HYDROCHLOROTHIAZIDE"
     ],
     "atc": "C03AA03",
-    "classe": "Thiazidiques non associes"
+    "classe": "Diurétiques thiazidiques"
   },
   {
     "dc": "DALACINE",
@@ -1008,56 +633,7 @@
       "CLINDAMYCINE HYDRATÉ"
     ],
     "atc": "J01FF01",
-    "classe": "Lincosamides"
-  },
-  {
-    "dc": "RYALTRIS",
-    "dcis": [
-      "MOMÉTASONE",
-      "OLOPATADINE"
-    ],
-    "atc": "R01AD59",
-    "classe": "Corticoides"
-  },
-  {
-    "dc": "CANDAZOL",
-    "dcis": [
-      "SERTACONAZOLE"
-    ],
-    "atc": "G01AF19",
-    "classe": "Derives imidazoles"
-  },
-  {
-    "dc": "DAKIN COOPER STABILISE",
-    "dcis": [
-      "SODIUM (HYPOCHLORITE DE), SOLUTION D'"
-    ],
-    "atc": "D08AX07",
-    "classe": "Autres antiseptiques et desinfectants"
-  },
-  {
-    "dc": "XIGDUO",
-    "dcis": [
-      "DAPAGLIFLOZINE PROPANEDIOL",
-      "METFORMINE"
-    ],
-    "atc": "A10BD15",
-    "classe": "Association de medicaments hypoglycemiants oraux"
-  },
-  {
-    "dc": "BOOSTRIXTETRA",
-    "dcis": [
-      "ANATOXINE DIPHTÉRIQUE",
-      "ANATOXINE TÉTANIQUE",
-      "ANTIGÈNE COQUELUCHEUX : ANATOXINE",
-      "ANTIGÈNE COQUELUCHEUX : HÉMAGGLUTININE FILAMENTEUSE",
-      "ANTIGÈNE COQUELUCHEUX : PERTACTINE",
-      "VIRUS POLIOMYELITIQUE SOUCHE MAHONEY DE TYPE 1 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE MEF-1 DE TYPE 2 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE SAUKETT DE TYPE 3 INACTIVÉ"
-    ],
-    "atc": "J07CA02",
-    "classe": "Vaccins bacteriens et viraux associes"
+    "classe": "Antibiotiques"
   },
   {
     "dc": "TEMESTA",
@@ -1074,23 +650,7 @@
       "PÉRINDOPRIL ARGININE"
     ],
     "atc": "C09BA04",
-    "classe": "Inhibiteurs de l'enzyme de conversion (iec) et diuretiques"
-  },
-  {
-    "dc": "NASACORT",
-    "dcis": [
-      "ACÉTONIDE DE TRIAMCINOLONE"
-    ],
-    "atc": "R01AD11",
-    "classe": "Corticoides"
-  },
-  {
-    "dc": "OCUFEN",
-    "dcis": [
-      "FLURBIPROFÈNE"
-    ],
-    "atc": "S01BC04",
-    "classe": "Antiinflammatoires non steroidiens"
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "URBANYL",
@@ -1106,15 +666,7 @@
       "INSULINE DÉGLUDEC"
     ],
     "atc": "A10AE06",
-    "classe": "Insulines et analogues daction lente pour injection"
-  },
-  {
-    "dc": "EPITOMAX",
-    "dcis": [
-      "TOPIRAMATE"
-    ],
-    "atc": "N03AX11",
-    "classe": "Autres antiepileptiques"
+    "classe": "Insulines lentes"
   },
   {
     "dc": "NOVORAPID",
@@ -1122,7 +674,7 @@
       "INSULINE ASPARTE"
     ],
     "atc": "A10AB05",
-    "classe": "Insulines et analogues daction rapide pour injection"
+    "classe": "Insulines rapides"
   },
   {
     "dc": "ANTALNOX",
@@ -1130,34 +682,7 @@
       "NAPROXÈNE"
     ],
     "atc": "M01AE02",
-    "classe": "AINS - dérivés de l'acide propionique"
-  },
-  {
-    "dc": "ACUPAN",
-    "dcis": [
-      "NÉFOPAM"
-    ],
-    "atc": "N02BG06",
-    "classe": "Autres analgesiques et antipyretiques"
-  },
-  {
-    "dc": "DIPROSALIC",
-    "dcis": [
-      "ACIDE SALICYLIQUE",
-      "BÉTAMÉTHASONE",
-      "SALICYLIQUE (ACIDE)"
-    ],
-    "atc": "D07XC01",
-    "classe": "Corticoides d'activite forte, autres associations"
-  },
-  {
-    "dc": "TOBRADEX",
-    "dcis": [
-      "DEXAMÉTHASONE",
-      "TOBRAMYCINE"
-    ],
-    "atc": "S01CA01",
-    "classe": "Corticoides et antiinfectieux en association"
+    "classe": "AINS"
   },
   {
     "dc": "FERROSTRANE",
@@ -1165,42 +690,7 @@
       "SODIUM (FÉRÉDÉTATE DE)"
     ],
     "atc": "B03AB03",
-    "classe": "Fer trivalent, preparations orales"
-  },
-  {
-    "dc": "CALCIDOSE VITAMINE D3",
-    "dcis": [
-      "CARBONATE DE CALCIUM",
-      "CONCENTRAT DE CHOLÉCALCIFÉROL, FORME PULVÉRULENTE"
-    ],
-    "atc": "A12AX",
-    "classe": "Calcium en association avec d'autres substances"
-  },
-  {
-    "dc": "OPTICRON UNIDOSE",
-    "dcis": [
-      "CROMOGLICATE DE SODIUM"
-    ],
-    "atc": "S01GX01",
-    "classe": "Autres antiallergiques"
-  },
-  {
-    "dc": "CROMADOSES",
-    "dcis": [
-      "CROMOGLICATE DE SODIUM"
-    ],
-    "atc": "S01GX01",
-    "classe": "Autres antiallergiques"
-  },
-  {
-    "dc": "TRIMBOW",
-    "dcis": [
-      "BÉCLOMÉTASONE",
-      "FORMOTÉROL",
-      "GLYCOPYRRONIUM"
-    ],
-    "atc": "R03AL09",
-    "classe": "Adrenergiques en association avec anticholinergiques"
+    "classe": "Supplémentation en fer"
   },
   {
     "dc": "FERO-GRAD VITAMINE C",
@@ -1209,7 +699,7 @@
       "SULFATE FERREUX"
     ],
     "atc": "B03AA10",
-    "classe": "Fer bivalent, preparations orales"
+    "classe": "Supplémentation en fer"
   },
   {
     "dc": "ZITHROMAX",
@@ -1217,16 +707,7 @@
       "AZITHROMYCINE"
     ],
     "atc": "J01FA10",
-    "classe": "Macrolides"
-  },
-  {
-    "dc": "CHIBRO CADRON",
-    "dcis": [
-      "NÉOMYCINE",
-      "PHOSPHATE SODIQUE DE DEXAMÉTHASONE"
-    ],
-    "atc": "S01CA01",
-    "classe": "Corticoides et antiinfectieux en association"
+    "classe": "Antibiotiques macrolides"
   },
   {
     "dc": "HALDOL",
@@ -1234,15 +715,7 @@
       "HALOPÉRIDOL"
     ],
     "atc": "N05AD01",
-    "classe": "Derives de la butyrophenone"
-  },
-  {
-    "dc": "LOMEXIN",
-    "dcis": [
-      "FENTICONAZOLE"
-    ],
-    "atc": "G01AF12",
-    "classe": "Derives imidazoles"
+    "classe": "Antipsychotiques"
   },
   {
     "dc": "MYCOSTATINE",
@@ -1250,26 +723,7 @@
       "NYSTATINE"
     ],
     "atc": "A07AA02",
-    "classe": "Antibiotiques"
-  },
-  {
-    "dc": "TRELEGY ELLIPTA",
-    "dcis": [
-      "FLUTICASONE",
-      "TRIFÉNATATE DE VILANTÉROL",
-      "UMÉCLIDINIUM"
-    ],
-    "atc": "R03AL08",
-    "classe": "Adrenergiques en association avec anticholinergiques"
-  },
-  {
-    "dc": "ULTIBRO BREEZHALER",
-    "dcis": [
-      "GLYCOPYRRONIUM",
-      "INDACATÉROL"
-    ],
-    "atc": "R03AL04",
-    "classe": "Adrenergiques en association avec anticholinergiques"
+    "classe": "Antidiarrhéiques"
   },
   {
     "dc": "VERATRAN",
@@ -1280,33 +734,12 @@
     "classe": "Benzodiazépines anxiolytiques"
   },
   {
-    "dc": "PANOTILE",
-    "dcis": [
-      "FLUDROCORTISONE",
-      "LIDOCAÏNE",
-      "NÉOMYCINE",
-      "POLYMYXINE B"
-    ],
-    "atc": "S02CA07",
-    "classe": "Corticoides et antiinfectieux en association"
-  },
-  {
     "dc": "COVERSYL",
     "dcis": [
       "PÉRINDOPRIL ARGININE"
     ],
     "atc": "C09AA04",
-    "classe": "Inhibiteurs de l'enzyme de conversion (iec) non associes"
-  },
-  {
-    "dc": "CYTEAL",
-    "dcis": [
-      "CHLOROCRÉSOL",
-      "DIISÉTIONATE D'HEXAMIDINE",
-      "SOLUTION DE DIGLUCONATE DE CHLORHEXIDINE"
-    ],
-    "atc": "D08AC52",
-    "classe": "Biguanides et amidines"
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "ORACILLINE",
@@ -1315,65 +748,23 @@
       "PHÉNOXYMÉTHYLPÉNICILLINE"
     ],
     "atc": "J01CE02",
-    "classe": "Penicillines sensibles aux betalactamases"
+    "classe": "Antibiotiques"
   },
   {
-    "dc": "TETRAVAC-ACELLULAIRE",
+    "dc": "SELEXID",
     "dcis": [
-      "ANATOXINE DIPHTÉRIQUE",
-      "ANATOXINE TÉTANIQUE",
-      "ANTIGÈNE DE BORDETELLA PERTUSSIS : ANATOXINE",
-      "ANTIGÈNE DE BORDETELLA PERTUSSIS : HÉMAGGLUTININE FILAMENTEUSE",
-      "VIRUS POLIOMYELITIQUE SOUCHE MAHONEY DE TYPE 1 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE MEF-1 DE TYPE 2 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE SAUKETT DE TYPE 3 INACTIVÉ"
+      "PIVMÉCILLINAM"
     ],
-    "atc": "J07CA02",
-    "classe": "Vaccins bacteriens et viraux associes"
+    "atc": "J01CA08",
+    "classe": "Antibiotiques pénicillines"
   },
   {
-    "dc": "SOLUPRED",
+    "dc": "TERALITHE LP",
     "dcis": [
-      "MÉTASULFOBENZOATE SODIQUE DE PREDNISOLONE"
+      "CARBONATE DE LITHIUM"
     ],
-    "atc": "H02AB06",
-    "classe": "Glucocorticoides"
-  },
-  {
-    "dc": "SERETIDE",
-    "dcis": [
-      "FLUTICASONE",
-      "SALMÉTÉROL"
-    ],
-    "atc": "R03AK06",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
-  },
-  {
-    "dc": "ANORO ELLIPTA",
-    "dcis": [
-      "TRIFÉNATATE DE VILANTÉROL",
-      "UMÉCLIDINIUM"
-    ],
-    "atc": "R03AL03",
-    "classe": "Adrenergiques en association avec anticholinergiques"
-  },
-  {
-    "dc": "OTIPAX",
-    "dcis": [
-      "LIDOCAÏNE",
-      "PHÉNAZONE"
-    ],
-    "atc": "S02DA30",
-    "classe": "Analgesiques et anesthesiques"
-  },
-  {
-    "dc": "GIBITER EASYHALER",
-    "dcis": [
-      "BUDÉSONIDE",
-      "FORMOTÉROL"
-    ],
-    "atc": "R03AK07",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
+    "atc": "N05AN01",
+    "classe": "Antipsychotiques"
   },
   {
     "dc": "HAVLANE",
@@ -1381,7 +772,7 @@
       "LOPRAZOLAM"
     ],
     "atc": "N05CD11",
-    "classe": "Benzodiazépines hypnotiques"
+    "classe": "Hypnotiques"
   },
   {
     "dc": "COLCHIMAX",
@@ -1391,34 +782,7 @@
       "POUDRE D'OPIUM"
     ],
     "atc": "M04AC01",
-    "classe": "Medicaments sans effet sur le metabolisme de l'acide urique"
-  },
-  {
-    "dc": "POLYDEXA",
-    "dcis": [
-      "DEXAMÉTHASONE (MÉTASULFOBENZOATE SODIQUE DE)",
-      "NÉOMYCINE",
-      "POLYMYXINE B"
-    ],
-    "atc": "S02CA06",
-    "classe": "Corticoides et antiinfectieux en association"
-  },
-  {
-    "dc": "DICLOFENAC REF",
-    "dcis": [
-      "DICLOFÉNAC DE DIÉTHYLAMINE"
-    ],
-    "atc": "M02AA15",
-    "classe": "Antiinflammatoires non steroidiens a usage topique"
-  },
-  {
-    "dc": "MYCOSTER",
-    "dcis": [
-      "CICLOPIROX",
-      "CICLOPIROX OLAMINE"
-    ],
-    "atc": "D01AE14",
-    "classe": "Autres antifongiques a usage topique"
+    "classe": "Antigoutteux"
   },
   {
     "dc": "DEPAKOTE",
@@ -1426,15 +790,7 @@
       "DIVALPROATE DE SODIUM"
     ],
     "atc": "N03AG01",
-    "classe": "Derives d'acide gras"
-  },
-  {
-    "dc": "MULTICROM",
-    "dcis": [
-      "CROMOGLICATE DE SODIUM"
-    ],
-    "atc": "S01GX01",
-    "classe": "Autres antiallergiques"
+    "classe": "Antiépileptiques"
   },
   {
     "dc": "NEO-MERCAZOLE",
@@ -1450,7 +806,7 @@
       "RACÉCADOTRIL"
     ],
     "atc": "A07XA04",
-    "classe": "Autres antidiarrheiques"
+    "classe": "Antidiarrhéiques"
   },
   {
     "dc": "LOXEN",
@@ -1458,15 +814,16 @@
       "NICARDIPINE"
     ],
     "atc": "C08CA04",
-    "classe": "Derives de la dihydropyridine"
+    "classe": "Inhibiteurs calciques"
   },
   {
-    "dc": "DIASEPTYL",
+    "dc": "TERCIAN",
     "dcis": [
-      "CHLORHEXIDINE (DIGLUCONATE DE)"
+      "CYAMÉMAZINE",
+      "CYAMÉPROMAZINE"
     ],
-    "atc": "D08AC02",
-    "classe": "Biguanides et amidines"
+    "atc": "N05AA06",
+    "classe": "Antipsychotiques"
   },
   {
     "dc": "SPIRIVA",
@@ -1474,7 +831,7 @@
       "TIOTROPIUM"
     ],
     "atc": "R03BB04",
-    "classe": "Anticholinergiques inhalés"
+    "classe": "Bronchodilatateurs anticholinergiques"
   },
   {
     "dc": "SPIRIVA RESPIMAT",
@@ -1482,15 +839,7 @@
       "TIOTROPIUM"
     ],
     "atc": "R03BB04",
-    "classe": "Anticholinergiques inhalés"
-  },
-  {
-    "dc": "AVAMYS",
-    "dcis": [
-      "FLUTICASONE"
-    ],
-    "atc": "R01AD12",
-    "classe": "Corticoides"
+    "classe": "Bronchodilatateurs anticholinergiques"
   },
   {
     "dc": "BRILIQUE",
@@ -1501,23 +850,6 @@
     "classe": "Antiagrégants plaquettaires"
   },
   {
-    "dc": "SEPTIVON",
-    "dcis": [
-      "DIGLUCONATE DE CHLORHEXIDINE"
-    ],
-    "atc": "D08AC02",
-    "classe": "Biguanides et amidines"
-  },
-  {
-    "dc": "POLERY",
-    "dcis": [
-      "CODÉINE",
-      "ÉRYSIMUM (SOMMITÉ FLEURIE D') (EXTRAIT FLUIDE DE)"
-    ],
-    "atc": "R05DA20",
-    "classe": "Alcaloides de l'opium et derives"
-  },
-  {
     "dc": "ZENTEL",
     "dcis": [
       "ALBENDAZOLE"
@@ -1526,22 +858,13 @@
     "classe": "Derives du benzimidazole"
   },
   {
-    "dc": "REVINTY ELLIPTA",
-    "dcis": [
-      "FLUTICASONE",
-      "TRIFÉNATATE DE VILANTÉROL"
-    ],
-    "atc": "R03AK10",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
-  },
-  {
     "dc": "BRONCHODUAL",
     "dcis": [
       "BROMHYDRATE DE FÉNOTÉROL",
       "IPRATROPIUM"
     ],
     "atc": "R03AL01",
-    "classe": "Adrenergiques en association avec anticholinergiques"
+    "classe": "Traitements inhalés respiratoires"
   },
   {
     "dc": "TOLEXINE",
@@ -1549,23 +872,15 @@
       "DOXYCYCLINE"
     ],
     "atc": "J01AA02",
-    "classe": "Tetracyclines"
+    "classe": "Antibiotiques"
   },
   {
-    "dc": "ALLERGODIL",
+    "dc": "FURADANTINE",
     "dcis": [
-      "AZÉLASTINE"
+      "NITROFURANTOÏNE"
     ],
-    "atc": "R01AC03",
-    "classe": "Antiallergiques, corticoides exclus"
-  },
-  {
-    "dc": "SURGAM",
-    "dcis": [
-      "ACIDE TIAPROFÉNIQUE"
-    ],
-    "atc": "M01AE11",
-    "classe": "AINS - dérivés de l'acide propionique"
+    "atc": "J01XE01",
+    "classe": "Antibiotiques"
   },
   {
     "dc": "PENTASA",
@@ -1573,7 +888,7 @@
       "MÉSALAZINE"
     ],
     "atc": "A07EC02",
-    "classe": "Acide aminosalicylique et analogues"
+    "classe": "Antidiarrhéiques"
   },
   {
     "dc": "FLUVERMAL",
@@ -1584,51 +899,20 @@
     "classe": "Derives du benzimidazole"
   },
   {
-    "dc": "MOXYDAR",
-    "dcis": [
-      "ALUMINIUM",
-      "ALUMINIUM (OXYDE D') HYDRATÉ",
-      "ALUMINIUM (PHOSPHATE D')",
-      "GOMME GUAR",
-      "HYDROXYDE DE MAGNÉSIUM",
-      "MAGNÉSIUM (HYDROXYDE DE)"
-    ],
-    "atc": "A02AD01",
-    "classe": "Associations et complexes a base d'aluminium, de calcium et de magnesium"
-  },
-  {
-    "dc": "NIFLUGEL",
-    "dcis": [
-      "NIFLUMIQUE (ACIDE)"
-    ],
-    "atc": "M02AA17",
-    "classe": "Antiinflammatoires non steroidiens a usage topique"
-  },
-  {
     "dc": "KETUM",
     "dcis": [
       "KÉTOPROFÈNE"
     ],
     "atc": "M01AE03",
-    "classe": "AINS - dérivés de l'acide propionique"
+    "classe": "AINS"
   },
   {
-    "dc": "ADVILMED",
+    "dc": "DUROGESIC",
     "dcis": [
-      "IBUPROFÈNE"
+      "FENTANYL"
     ],
-    "atc": "M01AE01",
-    "classe": "AINS - dérivés de l'acide propionique"
-  },
-  {
-    "dc": "BIONOLYTE G5",
-    "dcis": [
-      "GLUCOSE",
-      "POTASSIUM (CHLORURE DE)",
-      "SODIUM (CHLORURE DE)"
-    ],
-    "atc": "B05BB02",
-    "classe": "Solutions modifiant le bilan electrolytique"
+    "atc": "N02AB03",
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "KAYEXALATE",
@@ -1636,15 +920,7 @@
       "SODIUM (POLYSTYRÈNE SULFONATE DE)"
     ],
     "atc": "V03AE01",
-    "classe": "Medicaments de l'hyperkaliemie et de l'hyperphosphatemie"
-  },
-  {
-    "dc": "FLAMMAZINE",
-    "dcis": [
-      "SULFADIAZINE ARGENTIQUE"
-    ],
-    "atc": "D06BA01",
-    "classe": "Sulfamides"
+    "classe": "Médicaments de correction métabolique"
   },
   {
     "dc": "RESELIP",
@@ -1653,7 +929,16 @@
       "ÉZÉTIMIBE"
     ],
     "atc": "C10BA05",
-    "classe": "Inhibiteurs de lhmg -coa reductase en association avec dautres agents modifiant les lipides"
+    "classe": "Hypolipémiants"
+  },
+  {
+    "dc": "NOZINAN",
+    "dcis": [
+      "LÉVOMÉPROMAZINE",
+      "MALÉATE ACIDE DE LÉVOMÉPROMAZINE"
+    ],
+    "atc": "N05AA02",
+    "classe": "Antipsychotiques"
   },
   {
     "dc": "COSIMPREL",
@@ -1662,7 +947,7 @@
       "PÉRINDOPRIL ARGININE"
     ],
     "atc": "C09BX02",
-    "classe": "Inhibiteurs de l'enzyme de conversion, autres associations"
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "BACTRIM",
@@ -1671,7 +956,7 @@
       "TRIMÉTHOPRIME"
     ],
     "atc": "J01EE01",
-    "classe": "Associations de sulfamides et de trimethoprime, derives inclus"
+    "classe": "Antibiotiques"
   },
   {
     "dc": "IMOVANE",
@@ -1679,50 +964,7 @@
       "ZOPICLONE"
     ],
     "atc": "N05CF01",
-    "classe": "Hypnotiques apparentés aux benzodiazépines (Z-drugs)"
-  },
-  {
-    "dc": "ENGERIX B",
-    "dcis": [
-      "ANTIGÈNE  DE SURFACE DE L'HÉPATITE B RECOMBINANT"
-    ],
-    "atc": "J07BC01",
-    "classe": "Vaccins contre les hepatites"
-  },
-  {
-    "dc": "OROCAL",
-    "dcis": [
-      "CALCIUM (CARBONATE DE)"
-    ],
-    "atc": "A12AA04",
-    "classe": "Calcium"
-  },
-  {
-    "dc": "XOLAIR",
-    "dcis": [
-      "OMALIZUMAB"
-    ],
-    "atc": "R03DX05",
-    "classe": "Autres medicaments pour les syndromes obstructifs des voies aeriennes à usage systemique"
-  },
-  {
-    "dc": "OROFLUCO",
-    "dcis": [
-      "FLUCONAZOLE"
-    ],
-    "atc": "J02AC01",
-    "classe": "Derives triazoles"
-  },
-  {
-    "dc": "AURICULARUM",
-    "dcis": [
-      "DEXAMÉTHASONE (PHOSPHATE SODIQUE DE)",
-      "NYSTATINE",
-      "OXYTÉTRACYCLINE (CHLORHYDRATE D')",
-      "POLYMYXINE B"
-    ],
-    "atc": "S02CA06",
-    "classe": "Corticoides et antiinfectieux en association"
+    "classe": "Hypnotiques"
   },
   {
     "dc": "VOLTARENE L.P.",
@@ -1730,17 +972,7 @@
       "DICLOFÉNAC"
     ],
     "atc": "M01AB05",
-    "classe": "AINS - dérivés de l'acide acétique"
-  },
-  {
-    "dc": "MAXIDROL",
-    "dcis": [
-      "DEXAMÉTHASONE",
-      "NÉOMYCINE",
-      "POLYMYXINE B"
-    ],
-    "atc": "S01CA01",
-    "classe": "Corticoides et antiinfectieux en association"
+    "classe": "AINS"
   },
   {
     "dc": "FLAGYL",
@@ -1756,59 +988,7 @@
       "PRAMIPEXOLE (DICHLORHYDRATE DE)"
     ],
     "atc": "N04BC05",
-    "classe": "Agonistes dopaminergiques"
-  },
-  {
-    "dc": "ANTIBIO SYNALAR",
-    "dcis": [
-      "ACÉTONIDE DE FLUOCINOLONE",
-      "NÉOMYCINE",
-      "POLYMYXINE B"
-    ],
-    "atc": "S02CA05",
-    "classe": "Corticoides et antiinfectieux en association"
-  },
-  {
-    "dc": "CARDENSIEL",
-    "dcis": [
-      "BISOPROLOL",
-      "BISOPROLOL (HÉMIFUMARATE DE)"
-    ],
-    "atc": "C07AB07",
-    "classe": "Betabloquants, selectifs"
-  },
-  {
-    "dc": "TOBREX",
-    "dcis": [
-      "TOBRAMYCINE"
-    ],
-    "atc": "S01AA12",
-    "classe": "Antibiotiques"
-  },
-  {
-    "dc": "CORTANCYL",
-    "dcis": [
-      "PREDNISONE"
-    ],
-    "atc": "H02AB07",
-    "classe": "Glucocorticoides"
-  },
-  {
-    "dc": "TODEXAL",
-    "dcis": [
-      "DEXAMÉTHASONE",
-      "TOBRAMYCINE"
-    ],
-    "atc": "S01CA01",
-    "classe": "Corticoides et antiinfectieux en association"
-  },
-  {
-    "dc": "RIVOTRIL",
-    "dcis": [
-      "CLONAZÉPAM"
-    ],
-    "atc": "N03AE01",
-    "classe": "Derives de la benzodiazepine"
+    "classe": "Antiparkinsoniens"
   },
   {
     "dc": "MICROPAKINE L.P.",
@@ -1817,16 +997,7 @@
       "VALPROATE DE SODIUM"
     ],
     "atc": "N03AG01",
-    "classe": "Derives d'acide gras"
-  },
-  {
-    "dc": "JANUMET",
-    "dcis": [
-      "METFORMINE",
-      "SITAGLIPTINE"
-    ],
-    "atc": "A10BD07",
-    "classe": "Association de medicaments hypoglycemiants oraux"
+    "classe": "Antiépileptiques"
   },
   {
     "dc": "IMPORTAL",
@@ -1834,26 +1005,15 @@
       "LACTITOL"
     ],
     "atc": "A06AD12",
-    "classe": "Laxatifs osmotiques"
+    "classe": "Laxatifs"
   },
   {
-    "dc": "POLYGYNAX",
+    "dc": "OROKEN",
     "dcis": [
-      "NYSTATINE",
-      "NÉOMYCINE",
-      "POLYMYXINE B"
+      "CÉFIXIME"
     ],
-    "atc": "G01AA51",
-    "classe": "Antibiotiques"
-  },
-  {
-    "dc": "CALTRATE VITAMINE D3",
-    "dcis": [
-      "CARBONATE DE CALCIUM",
-      "CHOLÉCALCIFÉROL"
-    ],
-    "atc": "A12AX",
-    "classe": "Calcium en association avec d'autres substances"
+    "atc": "J01DD08",
+    "classe": "Antibiotiques céphalosporines"
   },
   {
     "dc": "HALDOL DECANOAS",
@@ -1861,7 +1021,7 @@
       "HALOPÉRIDOL"
     ],
     "atc": "N05AD01",
-    "classe": "Derives de la butyrophenone"
+    "classe": "Antipsychotiques"
   },
   {
     "dc": "IXPRIM",
@@ -1870,7 +1030,7 @@
       "TRAMADOL"
     ],
     "atc": "N02AJ13",
-    "classe": "Opiaces en association avec analgesiques non-opioides"
+    "classe": "Antalgiques non opioïdes"
   },
   {
     "dc": "UN ALFA",
@@ -1878,7 +1038,7 @@
       "ALFACALCIDOL"
     ],
     "atc": "A11CC03",
-    "classe": "Vitamine d et analogues"
+    "classe": "Vitamine D"
   },
   {
     "dc": "TWICOR",
@@ -1887,23 +1047,7 @@
       "ÉZÉTIMIBE"
     ],
     "atc": "C10BA06",
-    "classe": "Inhibiteurs de lhmg -coa reductase en association avec dautres agents modifiant les lipides"
-  },
-  {
-    "dc": "ROTARIX",
-    "dcis": [
-      "ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTÉNUÉ)"
-    ],
-    "atc": "J07BH01",
-    "classe": "Vaccins contre les diarrhees a rotavirus"
-  },
-  {
-    "dc": "INCRUSE ELLIPTA",
-    "dcis": [
-      "UMÉCLIDINIUM"
-    ],
-    "atc": "R03BB07",
-    "classe": "Anticholinergiques inhalés"
+    "classe": "Hypolipémiants"
   },
   {
     "dc": "VITAMINE B12 DELAGRANGE",
@@ -1922,61 +1066,12 @@
     "classe": "Benzodiazépines anxiolytiques"
   },
   {
-    "dc": "CILOXADEX",
-    "dcis": [
-      "CIPROFLOXACINE",
-      "DEXAMÉTHASONE"
-    ],
-    "atc": "S02CA06",
-    "classe": "Corticoides et antiinfectieux en association"
-  },
-  {
-    "dc": "ONYTEC",
-    "dcis": [
-      "CICLOPIROX"
-    ],
-    "atc": "D01AE14",
-    "classe": "Autres antifongiques a usage topique"
-  },
-  {
-    "dc": "VIMPAT",
-    "dcis": [
-      "LACOSAMIDE"
-    ],
-    "atc": "N03AX18",
-    "classe": "Autres antiepileptiques"
-  },
-  {
-    "dc": "CALCIDOSE",
-    "dcis": [
-      "CARBONATE DE CALCIUM"
-    ],
-    "atc": "A12AA04",
-    "classe": "Calcium"
-  },
-  {
-    "dc": "FLUCON",
-    "dcis": [
-      "FLUOROMÉTHOLONE"
-    ],
-    "atc": "S01BA07",
-    "classe": "Corticoides non associes"
-  },
-  {
-    "dc": "GLUCOPHAGE",
-    "dcis": [
-      "METFORMINE"
-    ],
-    "atc": "A10BA02",
-    "classe": "Biguanides"
-  },
-  {
     "dc": "ADRIGYL",
     "dcis": [
       "CHOLÉCALCIFÉROL"
     ],
     "atc": "A11CC05",
-    "classe": "Vitamine d et analogues"
+    "classe": "Vitamine D"
   },
   {
     "dc": "XANAX",
@@ -1987,42 +1082,12 @@
     "classe": "Benzodiazépines anxiolytiques"
   },
   {
-    "dc": "SYNJARDY",
-    "dcis": [
-      "EMPAGLIFLOZINE",
-      "METFORMINE"
-    ],
-    "atc": "A10BD20",
-    "classe": "Association de medicaments hypoglycemiants oraux"
-  },
-  {
     "dc": "STILNOX",
     "dcis": [
       "ZOLPIDEM"
     ],
     "atc": "N05CF02",
-    "classe": "Hypnotiques apparentés aux benzodiazépines (Z-drugs)"
-  },
-  {
-    "dc": "ANTARENE",
-    "dcis": [
-      "IBUPROFÈNE"
-    ],
-    "atc": "M02AA13",
-    "classe": "Antiinflammatoires non steroidiens a usage topique"
-  },
-  {
-    "dc": "MOVIPREP",
-    "dcis": [
-      "ASCORBATE DE SODIUM",
-      "ASCORBIQUE (ACIDE)",
-      "CHLORURE DE POTASSIUM",
-      "CHLORURE DE SODIUM",
-      "MACROGOL 3350",
-      "SODIUM"
-    ],
-    "atc": "A06AD65",
-    "classe": "Laxatifs osmotiques"
+    "classe": "Hypnotiques"
   },
   {
     "dc": "DEPAKINE",
@@ -2031,7 +1096,7 @@
       "VALPROATE DE SODIUM"
     ],
     "atc": "N03AG01",
-    "classe": "Derives d'acide gras"
+    "classe": "Antiépileptiques"
   },
   {
     "dc": "FUMAFER",
@@ -2039,7 +1104,7 @@
       "FUMARATE FERREUX"
     ],
     "atc": "B03AA02",
-    "classe": "Fer bivalent, preparations orales"
+    "classe": "Supplémentation en fer"
   },
   {
     "dc": "XULTOPHY",
@@ -2048,40 +1113,15 @@
       "LIRAGLUTIDE"
     ],
     "atc": "A10AE56",
-    "classe": "Insulines et analogues daction lente pour injection"
+    "classe": "Insulines lentes"
   },
   {
-    "dc": "HYDROCORTANCYL",
+    "dc": "VICTOZA",
     "dcis": [
-      "PREDNISOLONE"
+      "LIRAGLUTIDE"
     ],
-    "atc": "H02AB06",
-    "classe": "Glucocorticoides"
-  },
-  {
-    "dc": "XOLAAM",
-    "dcis": [
-      "HYDROXYDE D'ALUMINIUM",
-      "HYDROXYDE DE MAGNÉSIUM"
-    ],
-    "atc": "A02AD01",
-    "classe": "Associations et complexes a base d'aluminium, de calcium et de magnesium"
-  },
-  {
-    "dc": "BECOTIDE",
-    "dcis": [
-      "BÉCLOMÉTASONE"
-    ],
-    "atc": "R03BA01",
-    "classe": "Glucocorticoides"
-  },
-  {
-    "dc": "FLIXOTIDE DISKUS",
-    "dcis": [
-      "FLUTICASONE"
-    ],
-    "atc": "R03BA05",
-    "classe": "Glucocorticoides"
+    "atc": "A10BJ02",
+    "classe": "Antidiabétiques analogues GLP-1"
   },
   {
     "dc": "LASILIX",
@@ -2089,15 +1129,7 @@
       "FUROSÉMIDE"
     ],
     "atc": "C03CA01",
-    "classe": "Sulfamides non associes"
-  },
-  {
-    "dc": "BETNEVAL",
-    "dcis": [
-      "BÉTAMÉTHASONE"
-    ],
-    "atc": "D07AC01",
-    "classe": "Corticoides d'activite forte (groupe iii)"
+    "classe": "Diurétiques de l’anse"
   },
   {
     "dc": "IPRATROPIUM AGUETTANT",
@@ -2105,15 +1137,7 @@
       "IPRATROPIUM (BROMURE D')"
     ],
     "atc": "R03BB01",
-    "classe": "Anticholinergiques inhalés"
-  },
-  {
-    "dc": "MEDROL",
-    "dcis": [
-      "MÉTHYLPREDNISOLONE"
-    ],
-    "atc": "H02AB04",
-    "classe": "Glucocorticoides"
+    "classe": "Bronchodilatateurs anticholinergiques"
   },
   {
     "dc": "AUGMENTIN",
@@ -2122,7 +1146,7 @@
       "AMOXICILLINE"
     ],
     "atc": "J01CR02",
-    "classe": "Pénicillines associées à un inhibiteur de bêta-lactamase"
+    "classe": "Antibiotiques pénicillines + inhibiteur"
   },
   {
     "dc": "FIASP FLEXTOUCH",
@@ -2130,105 +1154,15 @@
       "INSULINE ASPARTE"
     ],
     "atc": "A10AB05",
-    "classe": "Insulines et analogues daction rapide pour injection"
+    "classe": "Insulines rapides"
   },
   {
-    "dc": "PNEUMOVAX",
+    "dc": "ACTIQ",
     "dcis": [
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 1 (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 10A (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 11A (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 12F (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 14 (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 15B (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 17F (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 18C (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 19A (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 19F (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 2 (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 20 (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 22F (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 23F (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 3 (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 33F (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 4 (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 5 (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 6B (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 7F (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 8 (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 9N (POLYOSIDES DE)",
-      "STREPTOCOCCUS PNEUMONIAE SÉROTYPE 9V (POLYOSIDES DE)"
+      "FENTANYL"
     ],
-    "atc": "J07AL01",
-    "classe": "Vaccins antipneumococciques"
-  },
-  {
-    "dc": "DIPROLENE",
-    "dcis": [
-      "BÉTAMÉTHASONE"
-    ],
-    "atc": "D07AC01",
-    "classe": "Corticoides d'activite forte (groupe iii)"
-  },
-  {
-    "dc": "NIFLURIL",
-    "dcis": [
-      "ACIDE NIFLUMIQUE",
-      "MORNIFLUMATE"
-    ],
-    "atc": "M01AX02",
-    "classe": "Autres antiinflammatoires antirhumatismaux non steroidiens"
-  },
-  {
-    "dc": "CACIT",
-    "dcis": [
-      "CALCIUM (CARBONATE DE)"
-    ],
-    "atc": "A12AA04",
-    "classe": "Calcium"
-  },
-  {
-    "dc": "LOGIMAX",
-    "dcis": [
-      "FÉLODIPINE",
-      "MÉTOPROLOL"
-    ],
-    "atc": "C07FB02",
-    "classe": "Betabloquants selectifs et autres antihypertenseurs"
-  },
-  {
-    "dc": "L-THYROXINE SERB",
-    "dcis": [
-      "LÉVOTHYROXINE"
-    ],
-    "atc": "H03AA01",
-    "classe": "Hormones thyroidiennes"
-  },
-  {
-    "dc": "KENACORT RETARD",
-    "dcis": [
-      "ACÉTONIDE DE TRIAMCINOLONE"
-    ],
-    "atc": "H02AB08",
-    "classe": "Glucocorticoides"
-  },
-  {
-    "dc": "AMYCOR ONYCHOSET",
-    "dcis": [
-      "BIFONAZOLE",
-      "URÉE"
-    ],
-    "atc": "D01AC60",
-    "classe": "Derives imidazoles et triazoles"
-  },
-  {
-    "dc": "QVAR AUTOHALER",
-    "dcis": [
-      "BÉCLOMÉTASONE",
-      "BÉCLOMÉTHASONE"
-    ],
-    "atc": "R03BA01",
-    "classe": "Glucocorticoides"
+    "atc": "N02AB03",
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "SINEMET",
@@ -2237,7 +1171,7 @@
       "LÉVODOPA"
     ],
     "atc": "N04BA02",
-    "classe": "Dopa et derives"
+    "classe": "Antiparkinsoniens"
   },
   {
     "dc": "LYSANXIA",
@@ -2248,21 +1182,13 @@
     "classe": "Benzodiazépines anxiolytiques"
   },
   {
-    "dc": "FONX",
-    "dcis": [
-      "OXICONAZOLE (NITRATE D')"
-    ],
-    "atc": "D01AC11",
-    "classe": "Derives imidazoles et triazoles"
-  },
-  {
     "dc": "TARKA LP",
     "dcis": [
       "TRANDOLAPRIL",
       "VÉRAPAMIL"
     ],
     "atc": "C09BB10",
-    "classe": "Inhibiteurs de l'enzyme de conversion (iec) et inhibiteurs calciques"
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "VITAMINE K1 CHEPLAPHARM",
@@ -2278,7 +1204,7 @@
       "DIVALPROATE DE SODIUM"
     ],
     "atc": "N03AG01",
-    "classe": "Derives d'acide gras"
+    "classe": "Antiépileptiques"
   },
   {
     "dc": "TAHOR",
@@ -2286,7 +1212,7 @@
       "ATORVASTATINE"
     ],
     "atc": "C10AA05",
-    "classe": "Statines"
+    "classe": "Hypolipémiants"
   },
   {
     "dc": "SECNOL",
@@ -2302,7 +1228,7 @@
       "NAPROXÈNE"
     ],
     "atc": "M01AE02",
-    "classe": "AINS - dérivés de l'acide propionique"
+    "classe": "AINS"
   },
   {
     "dc": "MONOCRIXO L.P.",
@@ -2310,7 +1236,7 @@
       "TRAMADOL"
     ],
     "atc": "N02AX02",
-    "classe": "Autres opioides"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "PARIET",
@@ -2326,7 +1252,7 @@
       "TERBUTALINE"
     ],
     "atc": "R03AC03",
-    "classe": "Bêta-2 agonistes inhalés sélectifs"
+    "classe": "Bronchodilatateurs bêta-2 mimétiques"
   },
   {
     "dc": "DEDROGYL",
@@ -2334,7 +1260,7 @@
       "CALCIFÉDIOL"
     ],
     "atc": "A11CC06",
-    "classe": "Vitamine d et analogues"
+    "classe": "Vitamine D"
   },
   {
     "dc": "ONBREZ BREEZHALER",
@@ -2342,7 +1268,7 @@
       "INDACATÉROL (MALÉATE D')"
     ],
     "atc": "R03AC18",
-    "classe": "Bêta-2 agonistes inhalés sélectifs"
+    "classe": "Bronchodilatateurs bêta-2 mimétiques"
   },
   {
     "dc": "CRESTOR",
@@ -2350,7 +1276,15 @@
       "ROSUVASTATINE"
     ],
     "atc": "C10AA07",
-    "classe": "Statines"
+    "classe": "Hypolipémiants"
+  },
+  {
+    "dc": "CLAMOXYL",
+    "dcis": [
+      "AMOXICILLINE"
+    ],
+    "atc": "J01CA04",
+    "classe": "Antibiotiques pénicillines"
   },
   {
     "dc": "MOPRAL",
@@ -2361,21 +1295,12 @@
     "classe": "Inhibiteurs de la pompe à protons (IPP)"
   },
   {
-    "dc": "SYMBICORT RAPIHALER",
-    "dcis": [
-      "BUDÉSONIDE",
-      "FORMOTÉROL"
-    ],
-    "atc": "R03AK07",
-    "classe": "Adrenergiques et autres medicaments pour les syndromes obstructifs des voies aeriennes"
-  },
-  {
     "dc": "FIASP",
     "dcis": [
       "INSULINE ASPARTE"
     ],
     "atc": "A10AB05",
-    "classe": "Insulines et analogues daction rapide pour injection"
+    "classe": "Insulines rapides"
   },
   {
     "dc": "PROFENID",
@@ -2383,7 +1308,7 @@
       "KÉTOPROFÈNE"
     ],
     "atc": "M01AE03",
-    "classe": "AINS - dérivés de l'acide propionique"
+    "classe": "AINS"
   },
   {
     "dc": "DUPHALAC",
@@ -2391,31 +1316,7 @@
       "LACTULOSE"
     ],
     "atc": "A06AD11",
-    "classe": "Laxatifs osmotiques"
-  },
-  {
-    "dc": "PULMICORT TURBUHALER",
-    "dcis": [
-      "BUDÉSONIDE"
-    ],
-    "atc": "R03BA02",
-    "classe": "Glucocorticoides"
-  },
-  {
-    "dc": "PROFEMIGR",
-    "dcis": [
-      "KÉTOPROFÈNE"
-    ],
-    "atc": "M01AE03",
-    "classe": "AINS - dérivés de l'acide propionique"
-  },
-  {
-    "dc": "LOCATOP",
-    "dcis": [
-      "DÉSONIDE"
-    ],
-    "atc": "D07AB08",
-    "classe": "Corticoides d'activite moderee (groupe ii)"
+    "classe": "Laxatifs"
   },
   {
     "dc": "OROZAMUDOL",
@@ -2423,7 +1324,7 @@
       "TRAMADOL"
     ],
     "atc": "N02AX02",
-    "classe": "Autres opioides"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "COAPROVEL",
@@ -2432,17 +1333,7 @@
       "IRBÉSARTAN"
     ],
     "atc": "C09DA04",
-    "classe": "Antagonistes de l'angiotensine ii et diuretiques"
-  },
-  {
-    "dc": "FIXICAL VITAMINE D3",
-    "dcis": [
-      "CALCIUM (CARBONATE DE)",
-      "CARBONATE DE CALCIUM",
-      "CONCENTRAT DE CHOLÉCALCIFÉROL, FORME PULVÉRULENTE"
-    ],
-    "atc": "A12AX",
-    "classe": "Calcium en association avec d'autres substances"
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "APRANAX",
@@ -2450,47 +1341,7 @@
       "NAPROXÈNE"
     ],
     "atc": "M01AE02",
-    "classe": "AINS - dérivés de l'acide propionique"
-  },
-  {
-    "dc": "VAXELIS",
-    "dcis": [
-      "ANATOXINE DIPHTÉRIQUE",
-      "ANATOXINE TÉTANIQUE",
-      "ANTIGÈNE  DE SURFACE DE L'HÉPATITE B RECOMBINANT",
-      "ANTIGÈNE PERTUSSIQUE : ANATOXINE PERTUSSIQUE",
-      "ANTIGÈNE PERTUSSIQUE : HÉMAGGLUTININE FILAMENTEUSE",
-      "ANTIGÈNE PERTUSSIQUE : PERTACTINE",
-      "ANTIGÈNES PERTUSSIQUES : FIMBRIAE TYPE 2 ET 3",
-      "POLYOSIDE D'HAEMOPHILUS INFLUENZAE DE TYPE B CONJUGUÉ À LA PROTÉINE MÉNINGOCOCCIQUE",
-      "VIRUS POLIOMYELITIQUE SOUCHE MAHONEY DE TYPE 1 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE MEF-1 DE TYPE 2 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE SAUKETT DE TYPE 3 INACTIVÉ"
-    ],
-    "atc": "J07CA09",
-    "classe": "Vaccins bacteriens et viraux associes"
-  },
-  {
-    "dc": "VAXNEUVANCE",
-    "dcis": [
-      "POLYOSIDE PNEUMOCOCCIQUE DE SÉROTYPE 22F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE DE SÉROTYPE 33F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 1 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 14 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 18C CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 19A CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 19F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 23F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 3 CONJUGUÉ À LA PROTÉINE VECTRICE CRM 197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 4 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 5 CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 6A CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 6B CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 7F CONJUGUÉ À LA PROTÉINE VECTRICE CRM197",
-      "POLYOSIDE PNEUMOCOCCIQUE SÉROTYPE 9V CONJUGUÉ À LA PROTÉINE VECTRICE CRM197"
-    ],
-    "atc": "J07AL02",
-    "classe": "Vaccins antipneumococciques"
+    "classe": "AINS"
   },
   {
     "dc": "APIDRA SOLOSTAR",
@@ -2498,7 +1349,7 @@
       "INSULINE GLULISINE"
     ],
     "atc": "A10AB06",
-    "classe": "Insulines et analogues daction rapide pour injection"
+    "classe": "Insulines rapides"
   },
   {
     "dc": "TWYNSTA",
@@ -2507,7 +1358,15 @@
       "TELMISARTAN"
     ],
     "atc": "C09DB04",
-    "classe": "Antagonistes de langiotensine ii et inhibiteurs calciques"
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "CLOPIXOL ACTION PROLONGEE",
+    "dcis": [
+      "ZUCLOPENTHIXOL"
+    ],
+    "atc": "N05AF05",
+    "classe": "Antipsychotiques"
   },
   {
     "dc": "LEVEMIR FLEXPEN",
@@ -2515,7 +1374,7 @@
       "INSULINE DÉTÉMIR"
     ],
     "atc": "A10AE05",
-    "classe": "Insulines et analogues daction lente pour injection"
+    "classe": "Insulines lentes"
   },
   {
     "dc": "OROBUPRE",
@@ -2523,7 +1382,7 @@
       "BUPRÉNORPHINE"
     ],
     "atc": "N07BC01",
-    "classe": "Medicaments utilises dans la dependance aux opioïdes"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "NATRIXAM",
@@ -2535,14 +1394,6 @@
     "classe": "Inhibiteur calcique et diuretique"
   },
   {
-    "dc": "NABUCOX",
-    "dcis": [
-      "NABUMÉTONE"
-    ],
-    "atc": "M01AX01",
-    "classe": "Autres antiinflammatoires antirhumatismaux non steroidiens"
-  },
-  {
     "dc": "THYROZOL",
     "dcis": [
       "THIAMAZOLE"
@@ -2551,20 +1402,12 @@
     "classe": "Derives imidazoles soufres"
   },
   {
-    "dc": "TRANDATE",
-    "dcis": [
-      "LABÉTALOL"
-    ],
-    "atc": "C07AG01",
-    "classe": "Alpha et beta bloquants"
-  },
-  {
     "dc": "OXYNORM",
     "dcis": [
       "OXYCODONE"
     ],
     "atc": "N02AA05",
-    "classe": "Alcaloides naturels de l'opium"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "MOVICOL SANS AROME",
@@ -2575,26 +1418,7 @@
       "MACROGOL 3350"
     ],
     "atc": "A06AD65",
-    "classe": "Laxatifs osmotiques"
-  },
-  {
-    "dc": "RHINOCORT",
-    "dcis": [
-      "BUDÉSONIDE"
-    ],
-    "atc": "R01AD05",
-    "classe": "Corticoides"
-  },
-  {
-    "dc": "NIMENRIX",
-    "dcis": [
-      "POLYOSIDE DE NEISSERIA MENINGITIDIS DE GROUPE A CONJUGUÉ À L'ANATOXINE TÉTANIQUE",
-      "POLYOSIDE DE NEISSERIA MENINGITIDIS DE GROUPE C CONJUGUÉ À LA PROTÉINE TÉTANIQUE",
-      "POLYOSIDE DE NEISSERIA MENINGITIDIS DE GROUPE W-135 CONJUGUÉ À L'ANATOXINE TÉTANIQUE",
-      "POLYOSIDE DE NEISSERIA MENINGITIDIS DE GROUPE Y CONJUGUÉ À L'ANATOXINE TÉTANIQUE"
-    ],
-    "atc": "J07AH08",
-    "classe": "Vaccins antimeningococciques"
+    "classe": "Laxatifs"
   },
   {
     "dc": "MEDIATENSYL LP",
@@ -2611,7 +1435,7 @@
       "RAMIPRIL"
     ],
     "atc": "C09BB07",
-    "classe": "Inhibiteurs de l'enzyme de conversion (iec) et inhibiteurs calciques"
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "SPIOLTO RESPIMAT",
@@ -2620,24 +1444,15 @@
       "TIOTROPIUM"
     ],
     "atc": "R03BB54",
-    "classe": "Anticholinergiques inhalés"
+    "classe": "Bronchodilatateurs anticholinergiques"
   },
   {
-    "dc": "CROMOPTIC",
+    "dc": "XYLLOMAC",
     "dcis": [
-      "CROMOGLICATE DE SODIUM"
+      "AMOXICILLINE"
     ],
-    "atc": "S01GX01",
-    "classe": "Autres antiallergiques"
-  },
-  {
-    "dc": "IDEOS",
-    "dcis": [
-      "CARBONATE DE CALCIUM",
-      "CONCENTRAT DE CHOLÉCALCIFÉROL, FORME PULVÉRULENTE"
-    ],
-    "atc": "A12AX",
-    "classe": "Calcium en association avec d'autres substances"
+    "atc": "J01CA04",
+    "classe": "Antibiotiques pénicillines"
   },
   {
     "dc": "ORDIPHA",
@@ -2645,15 +1460,7 @@
       "AZITHROMYCINE"
     ],
     "atc": "J01FA10",
-    "classe": "Macrolides"
-  },
-  {
-    "dc": "CROMABAK",
-    "dcis": [
-      "CROMOGLICATE DE SODIUM"
-    ],
-    "atc": "S01GX01",
-    "classe": "Autres antiallergiques"
+    "classe": "Antibiotiques macrolides"
   },
   {
     "dc": "SUVREZA",
@@ -2662,7 +1469,7 @@
       "ÉZÉTIMIBE"
     ],
     "atc": "C10BA06",
-    "classe": "Inhibiteurs de lhmg -coa reductase en association avec dautres agents modifiant les lipides"
+    "classe": "Hypolipémiants"
   },
   {
     "dc": "DIAMICRON",
@@ -2673,44 +1480,13 @@
     "classe": "Sulfamides, derives de l'uree"
   },
   {
-    "dc": "THYROFIX",
-    "dcis": [
-      "LÉVOTHYROXINE"
-    ],
-    "atc": "H03AA01",
-    "classe": "Hormones thyroidiennes"
-  },
-  {
-    "dc": "ARTISIAL",
-    "dcis": [
-      "CHLORURE DE CALCIUM",
-      "MAGNÉSIUM (CHLORURE DE) HEXAHYDRATÉ",
-      "PHOSPHATE DIPOTASSIQUE",
-      "PHOSPHATE MONOPOTASSIQUE",
-      "POTASSIUM (CHLORURE DE)",
-      "SODIUM (CHLORURE DE)"
-    ],
-    "atc": "A01AD11",
-    "classe": "Autres medicaments pour traitement oral local"
-  },
-  {
     "dc": "MODOPAR L.P.",
     "dcis": [
       "BENSÉRAZIDE",
       "LÉVODOPA"
     ],
     "atc": "N04BA02",
-    "classe": "Dopa et derives"
-  },
-  {
-    "dc": "ELEBRATO ELLIPTA",
-    "dcis": [
-      "FLUTICASONE",
-      "TRIFÉNATATE DE VILANTÉROL",
-      "UMÉCLIDINIUM"
-    ],
-    "atc": "R03AL08",
-    "classe": "Adrenergiques en association avec anticholinergiques"
+    "classe": "Antiparkinsoniens"
   },
   {
     "dc": "TRANSULOSE",
@@ -2720,15 +1496,7 @@
       "VASELINE"
     ],
     "atc": "A06AA51",
-    "classe": "Laxatifs lubrifiants"
-  },
-  {
-    "dc": "AMYCOR",
-    "dcis": [
-      "BIFONAZOLE"
-    ],
-    "atc": "D01AC10",
-    "classe": "Derives imidazoles et triazoles"
+    "classe": "Laxatifs"
   },
   {
     "dc": "CELESTENE",
@@ -2737,7 +1505,7 @@
       "BÉTAMÉTHASONE"
     ],
     "atc": "H02AB01",
-    "classe": "Glucocorticoides"
+    "classe": "Corticoïdes systémiques"
   },
   {
     "dc": "CITRAFLEET",
@@ -2747,7 +1515,7 @@
       "PICOSULFATE DE SODIUM"
     ],
     "atc": "A06AB58",
-    "classe": "Laxatifs stimulants"
+    "classe": "Laxatifs"
   },
   {
     "dc": "APOKINON",
@@ -2755,7 +1523,7 @@
       "APOMORPHINE"
     ],
     "atc": "N04BC07",
-    "classe": "Agonistes dopaminergiques"
+    "classe": "Antalgiques opioïdes"
   },
   {
     "dc": "NOVOMIX",
@@ -2766,29 +1534,60 @@
     "classe": "Insulines et analogues daction intermediaire et à debut daction rapide pour injection"
   },
   {
-    "dc": "INFANRIX HEXA",
+    "dc": "ABILIFY MAINTENA",
     "dcis": [
-      "ANATOXINE DIPHTÉRIQUE",
-      "ANATOXINE TÉTANIQUE",
-      "ANTIGÈNE  DE SURFACE DE L'HÉPATITE B RECOMBINANT",
-      "ANTIGÈNE DE BORDETELLA PERTUSSIS : ANATOXINE",
-      "ANTIGÈNE DE BORDETELLA PERTUSSIS : HÉMAGGLUTININE FILAMENTEUSE",
-      "ANTIGÈNE DE BORDETELLA PERTUSSIS : PERTACTINE",
-      "POLYOSIDE HAEMOPHILUS INFLUENZAE TYPE B CONJUGUÉ À L'ANATOXINE TÉTANIQUE",
-      "VIRUS POLIOMYELITIQUE SOUCHE MAHONEY DE TYPE 1 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE MEF-1 DE TYPE 2 INACTIVÉ",
-      "VIRUS POLIOMYÉLITIQUE SOUCHE SAUKETT DE TYPE 3 INACTIVÉ"
+      "ARIPIPRAZOLE"
     ],
-    "atc": "J07CA09",
-    "classe": "Vaccins bacteriens et viraux associes"
+    "atc": "N05AX12",
+    "classe": "Antipsychotiques"
   },
   {
-    "dc": "FLIXONASE",
+    "dc": "SMECTA",
     "dcis": [
-      "FLUTICASONE"
+      "DIOSMECTITE"
     ],
-    "atc": "R03BA05",
-    "classe": "Glucocorticoides"
+    "atc": "A07BC05",
+    "classe": "Antidiarrhéiques"
+  },
+  {
+    "dc": "APROVEL",
+    "dcis": [
+      "IRBÉSARTAN"
+    ],
+    "atc": "C09CA04",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "TOPALGIC",
+    "dcis": [
+      "TRAMADOL"
+    ],
+    "atc": "N02AX02",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "UN-ALFA",
+    "dcis": [
+      "ALFACALCIDOL"
+    ],
+    "atc": "A11CC03",
+    "classe": "Vitamine D"
+  },
+  {
+    "dc": "ATROVENT",
+    "dcis": [
+      "IPRATROPIUM"
+    ],
+    "atc": "R03BB01",
+    "classe": "Bronchodilatateurs anticholinergiques"
+  },
+  {
+    "dc": "AMLOR",
+    "dcis": [
+      "AMLODIPINE"
+    ],
+    "atc": "C08CA01",
+    "classe": "Inhibiteurs calciques"
   },
   {
     "dc": "BACTRIM FORTE",
@@ -2797,7 +1596,128 @@
       "TRIMÉTHOPRIME"
     ],
     "atc": "J01EE01",
-    "classe": "Associations de sulfamides et de trimethoprime, derives inclus"
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "LINDILANE",
+    "dcis": [
+      "CODÉINE",
+      "PARACÉTAMOL"
+    ],
+    "atc": "N02AJ06",
+    "classe": "Antalgiques non opioïdes"
+  },
+  {
+    "dc": "DIPIPERON",
+    "dcis": [
+      "PIPAMPÉRONE",
+      "PIPAMPÉRONE (DICHLORHYDRATE DE)"
+    ],
+    "atc": "N05AD05",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "BEAGYNE",
+    "dcis": [
+      "FLUCONAZOLE"
+    ],
+    "atc": "J02AC01",
+    "classe": "Antifongiques"
+  },
+  {
+    "dc": "EXFORGE",
+    "dcis": [
+      "AMLODIPINE",
+      "VALSARTAN"
+    ],
+    "atc": "C09DB01",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "FIVASA",
+    "dcis": [
+      "MÉSALAZINE"
+    ],
+    "atc": "A07EC02",
+    "classe": "Antidiarrhéiques"
+  },
+  {
+    "dc": "ASPIRINE UPSA TAMPONNEE EFFERVESCENTE",
+    "dcis": [
+      "ACIDE ACÉTYLSALICYLIQUE"
+    ],
+    "atc": "N02BA01",
+    "classe": "Antiagrégants plaquettaires"
+  },
+  {
+    "dc": "APREXEVO",
+    "dcis": [
+      "AMLODIPINE",
+      "IRBÉSARTAN"
+    ],
+    "atc": "C09DB05",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "SINEMET LP",
+    "dcis": [
+      "CARBIDOPA",
+      "LÉVODOPA"
+    ],
+    "atc": "N04BA02",
+    "classe": "Antiparkinsoniens"
+  },
+  {
+    "dc": "CLOPIXOL",
+    "dcis": [
+      "DICHLORHYDRATE DE ZUCLOPENTHIXOL",
+      "ZUCLOPENTHIXOL (DICHLORHYDRATE DE)"
+    ],
+    "atc": "N05AF05",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "INIPOMP",
+    "dcis": [
+      "PANTOPRAZOLE",
+      "PANTOPRAZOLE SODIQUE SESQUIHYDRATÉ"
+    ],
+    "atc": "A02BC02",
+    "classe": "Inhibiteurs de la pompe à protons (IPP)"
+  },
+  {
+    "dc": "STALEVO",
+    "dcis": [
+      "CARBIDOPA",
+      "ENTACAPONE",
+      "LÉVODOPA"
+    ],
+    "atc": "N04BA03",
+    "classe": "Antiparkinsoniens"
+  },
+  {
+    "dc": "RISPERDAL",
+    "dcis": [
+      "RISPÉRIDONE"
+    ],
+    "atc": "N05AX08",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "LARGACTIL",
+    "dcis": [
+      "CHLORPROMAZINE"
+    ],
+    "atc": "N05AA01",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "TRIVASTAL",
+    "dcis": [
+      "PIRIBÉDIL"
+    ],
+    "atc": "N04BC08",
+    "classe": "Antiparkinsoniens"
   },
   {
     "dc": "NOVORAPID PENFILL",
@@ -2805,7 +1725,222 @@
       "INSULINE ASPARTE"
     ],
     "atc": "A10AB05",
-    "classe": "Insulines et analogues daction rapide pour injection"
+    "classe": "Insulines rapides"
+  },
+  {
+    "dc": "LERCAPRESS",
+    "dcis": [
+      "LERCANIDIPINE",
+      "ÉNALAPRIL"
+    ],
+    "atc": "C09BB02",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "NUCTALON",
+    "dcis": [
+      "ESTAZOLAM"
+    ],
+    "atc": "N05CD04",
+    "classe": "Hypnotiques"
+  },
+  {
+    "dc": "PRETERAX",
+    "dcis": [
+      "INDAPAMIDE",
+      "PÉRINDOPRIL ARGININE"
+    ],
+    "atc": "C09BA04",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "OXYCONTIN LP",
+    "dcis": [
+      "OXYCODONE",
+      "OXYCODONE (CHLORHYDRATE D')"
+    ],
+    "atc": "N02AA05",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "ORAMORPH",
+    "dcis": [
+      "MORPHINE"
+    ],
+    "atc": "N02AA01",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "ZAMUDOL LP",
+    "dcis": [
+      "TRAMADOL"
+    ],
+    "atc": "N02AX02",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "XATRAL",
+    "dcis": [
+      "ALFUZOSINE (CHLORHYDRATE D')"
+    ],
+    "atc": "G04CA01",
+    "classe": "Alpha-bloquants"
+  },
+  {
+    "dc": "PANTOPRAZOLE ALMUS",
+    "dcis": [
+      "PANTOPRAZOLE SODIQUE SESQUIHYDRATÉ"
+    ],
+    "atc": "A02BC02",
+    "classe": "Inhibiteurs de la pompe à protons (IPP)"
+  },
+  {
+    "dc": "NEUPRO",
+    "dcis": [
+      "ROTIGOTINE"
+    ],
+    "atc": "N04BC09",
+    "classe": "Antiparkinsoniens"
+  },
+  {
+    "dc": "ICAZ LP",
+    "dcis": [
+      "ISRADIPINE"
+    ],
+    "atc": "C08CA03",
+    "classe": "Inhibiteurs calciques"
+  },
+  {
+    "dc": "SUBOXONE",
+    "dcis": [
+      "BUPRÉNORPHINE",
+      "NALOXONE"
+    ],
+    "atc": "N07BC51",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "TIAPRIDAL",
+    "dcis": [
+      "TIAPRIDE"
+    ],
+    "atc": "N05AL03",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "DUOPLAVIN",
+    "dcis": [
+      "ACIDE ACÉTYLSALICYLIQUE",
+      "CLOPIDOGREL"
+    ],
+    "atc": "B01AC30",
+    "classe": "Antiagrégants plaquettaires"
+  },
+  {
+    "dc": "PECFENT",
+    "dcis": [
+      "FENTANYL"
+    ],
+    "atc": "N02AB03",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "DICODIN L.P.",
+    "dcis": [
+      "DIHYDROCODÉINE"
+    ],
+    "atc": "N02AA08",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "LODOZ",
+    "dcis": [
+      "BISOPROLOL",
+      "HYDROCHLOROTHIAZIDE"
+    ],
+    "atc": "C07BB07",
+    "classe": "Bêtabloquants"
+  },
+  {
+    "dc": "MODAMIDE",
+    "dcis": [
+      "AMILORIDE (CHLORHYDRATE D') HYDRATÉ"
+    ],
+    "atc": "C03DB01",
+    "classe": "Autres diuretiques epargneurs potassiques"
+  },
+  {
+    "dc": "ABILIFY",
+    "dcis": [
+      "ARIPIPRAZOLE"
+    ],
+    "atc": "N05AX12",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "VOLTARENE",
+    "dcis": [
+      "DICLOFÉNAC"
+    ],
+    "atc": "M01AB05",
+    "classe": "AINS"
+  },
+  {
+    "dc": "MANTADIX",
+    "dcis": [
+      "AMANTADINE"
+    ],
+    "atc": "N04BB01",
+    "classe": "Antiparkinsoniens"
+  },
+  {
+    "dc": "DOGMATIL",
+    "dcis": [
+      "SULPIRIDE"
+    ],
+    "atc": "N05AL01",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "ROCGEL",
+    "dcis": [
+      "ALUMINIUM (OXYDE D') HYDRATÉ"
+    ],
+    "atc": "A02AB01",
+    "classe": "Antiulcéreux / antiacides"
+  },
+  {
+    "dc": "PULMODEXANE",
+    "dcis": [
+      "BROMHYDRATE DE DEXTROMÉTHORPHANE"
+    ],
+    "atc": "R05DA09",
+    "classe": "Alcaloides de l'opium et derives"
+  },
+  {
+    "dc": "COTAREG",
+    "dcis": [
+      "HYDROCHLOROTHIAZIDE",
+      "VALSARTAN"
+    ],
+    "atc": "C09DA03",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "LYUMJEV",
+    "dcis": [
+      "INSULINE LISPRO"
+    ],
+    "atc": "A10AB04",
+    "classe": "Insulines rapides"
+  },
+  {
+    "dc": "ATACAND",
+    "dcis": [
+      "CANDÉSARTAN"
+    ],
+    "atc": "C09CA06",
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "NOVORAPID PUMPCART",
@@ -2813,7 +1948,207 @@
       "INSULINE ASPARTE"
     ],
     "atc": "A10AB05",
-    "classe": "Insulines et analogues daction rapide pour injection"
+    "classe": "Insulines rapides"
+  },
+  {
+    "dc": "ASCOFER",
+    "dcis": [
+      "ASCORBATE FERREUX"
+    ],
+    "atc": "B03AA10",
+    "classe": "Supplémentation en fer"
+  },
+  {
+    "dc": "LEVMENTIN",
+    "dcis": [
+      "ACIDE CLAVULANIQUE",
+      "AMOXICILLINE"
+    ],
+    "atc": "J01CR02",
+    "classe": "Antibiotiques pénicillines + inhibiteur"
+  },
+  {
+    "dc": "ALDOMET",
+    "dcis": [
+      "MÉTHYLDOPA SESQUIHYDRATÉ"
+    ],
+    "atc": "C02AB02",
+    "classe": "Methyldopa"
+  },
+  {
+    "dc": "SALAZOPYRINE",
+    "dcis": [
+      "SULFASALAZINE"
+    ],
+    "atc": "A07EC01",
+    "classe": "Antidiarrhéiques"
+  },
+  {
+    "dc": "ZANEXTRA",
+    "dcis": [
+      "LERCANIDIPINE",
+      "ÉNALAPRIL"
+    ],
+    "atc": "C09BB02",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "ISTOPEN",
+    "dcis": [
+      "OXACILLINE"
+    ],
+    "atc": "J01CF04",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "TAKADOL",
+    "dcis": [
+      "TRAMADOL"
+    ],
+    "atc": "N02AX02",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "INEGY",
+    "dcis": [
+      "SIMVASTATINE",
+      "ÉZÉTIMIBE"
+    ],
+    "atc": "C10BA02",
+    "classe": "Hypolipémiants"
+  },
+  {
+    "dc": "STEROGYL",
+    "dcis": [
+      "ERGOCALCIFÉROL"
+    ],
+    "atc": "A11CC01",
+    "classe": "Vitamine D"
+  },
+  {
+    "dc": "PYLERA",
+    "dcis": [
+      "MÉTRONIDAZOLE",
+      "SOUS-CITRATE DE BISMUTH",
+      "TÉTRACYCLINE"
+    ],
+    "atc": "A02BD08",
+    "classe": "Antiulcéreux / antiacides"
+  },
+  {
+    "dc": "TAREG",
+    "dcis": [
+      "VALSARTAN"
+    ],
+    "atc": "C09CA03",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "TAZOCILLINE",
+    "dcis": [
+      "PIPÉRACILLINE",
+      "TAZOBACTAM"
+    ],
+    "atc": "J01CR05",
+    "classe": "Antibiotiques pénicillines + inhibiteur"
+  },
+  {
+    "dc": "FORADIL",
+    "dcis": [
+      "FORMOTÉROL"
+    ],
+    "atc": "R03AC13",
+    "classe": "Bronchodilatateurs bêta-2 mimétiques"
+  },
+  {
+    "dc": "VENTILASTIN NOVOLIZER",
+    "dcis": [
+      "SALBUTAMOL"
+    ],
+    "atc": "R03AC02",
+    "classe": "Bronchodilatateurs bêta-2 mimétiques"
+  },
+  {
+    "dc": "ROCALTROL",
+    "dcis": [
+      "CALCITRIOL"
+    ],
+    "atc": "A11CC04",
+    "classe": "Vitamine D"
+  },
+  {
+    "dc": "TERALITHE",
+    "dcis": [
+      "CARBONATE DE LITHIUM"
+    ],
+    "atc": "N05AN01",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "BIRODOGYL",
+    "dcis": [
+      "MÉTRONIDAZOLE",
+      "SPIRAMYCINE"
+    ],
+    "atc": "J01RA04",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "CADUET",
+    "dcis": [
+      "AMLODIPINE",
+      "ATORVASTATINE"
+    ],
+    "atc": "C10BX03",
+    "classe": "Hypolipémiants"
+  },
+  {
+    "dc": "TRIATEC",
+    "dcis": [
+      "RAMIPRIL"
+    ],
+    "atc": "C09AA05",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "KENZEN",
+    "dcis": [
+      "CANDÉSARTAN"
+    ],
+    "atc": "C09CA06",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "INOFER",
+    "dcis": [
+      "SUCCINATE FERREUX"
+    ],
+    "atc": "B03AA06",
+    "classe": "Supplémentation en fer"
+  },
+  {
+    "dc": "REQUIP LP",
+    "dcis": [
+      "ROPINIROLE"
+    ],
+    "atc": "N04BC04",
+    "classe": "Antiparkinsoniens"
+  },
+  {
+    "dc": "NEBCINE",
+    "dcis": [
+      "TOBRAMYCINE"
+    ],
+    "atc": "J01GB01",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "XATRAL LP",
+    "dcis": [
+      "ALFUZOSINE"
+    ],
+    "atc": "G04CA01",
+    "classe": "Alpha-bloquants"
   },
   {
     "dc": "TRESIBA PENFILL",
@@ -2821,7 +2156,368 @@
       "INSULINE DÉGLUDEC"
     ],
     "atc": "A10AE06",
-    "classe": "Insulines et analogues daction lente pour injection"
+    "classe": "Insulines lentes"
+  },
+  {
+    "dc": "OXEOL",
+    "dcis": [
+      "BAMBUTÉROL"
+    ],
+    "atc": "R03CC12",
+    "classe": "Agonistes selectifs beta 2 adrenergiques"
+  },
+  {
+    "dc": "AZILECT",
+    "dcis": [
+      "RASAGILINE"
+    ],
+    "atc": "N04BD02",
+    "classe": "Antiparkinsoniens"
+  },
+  {
+    "dc": "RIFADINE",
+    "dcis": [
+      "RIFAMPICINE"
+    ],
+    "atc": "J04AB02",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "ALDACTAZINE",
+    "dcis": [
+      "ALTIZIDE",
+      "SPIRONOLACTONE"
+    ],
+    "atc": "C03EA04",
+    "classe": "\"diuretiques \"\"low-ceiling\"\" et epargneurs potassiques\""
+  },
+  {
+    "dc": "CEBUTID",
+    "dcis": [
+      "FLURBIPROFÈNE"
+    ],
+    "atc": "M01AE09",
+    "classe": "AINS"
+  },
+  {
+    "dc": "ZECLAR",
+    "dcis": [
+      "CLARITHROMYCINE"
+    ],
+    "atc": "J01FA09",
+    "classe": "Antibiotiques macrolides"
+  },
+  {
+    "dc": "XEPLION",
+    "dcis": [
+      "PALIPÉRIDONE"
+    ],
+    "atc": "N05AX13",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "FORTRANS",
+    "dcis": [
+      "BICARBONATE DE SODIUM",
+      "CHLORURE DE POTASSIUM",
+      "CHLORURE DE SODIUM",
+      "MACROGOL 4000",
+      "SODIUM"
+    ],
+    "atc": "A06AD65",
+    "classe": "Laxatifs"
+  },
+  {
+    "dc": "TETRALYSAL",
+    "dcis": [
+      "LYMÉCYCLINE"
+    ],
+    "atc": "J01AA07",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "TILCOTIL",
+    "dcis": [
+      "TÉNOXICAM"
+    ],
+    "atc": "M01AC02",
+    "classe": "AINS"
+  },
+  {
+    "dc": "FUCIDINE",
+    "dcis": [
+      "FUSIDIQUE (ACIDE)",
+      "SODIUM (FUSIDATE DE)"
+    ],
+    "atc": "J01XC01",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "VICTAN",
+    "dcis": [
+      "LOFLAZÉPATE D'ÉTHYLE"
+    ],
+    "atc": "N05BA18",
+    "classe": "Benzodiazépines anxiolytiques"
+  },
+  {
+    "dc": "SINTROM",
+    "dcis": [
+      "ACÉNOCOUMAROL"
+    ],
+    "atc": "B01AA07",
+    "classe": "Antivitamines K (AVK)"
+  },
+  {
+    "dc": "KETOSTERIL",
+    "dcis": [
+      "CALCIUM (ALPHA CÉTO DL ISOLEUCINE DE)",
+      "CALCIUM (ALPHA CÉTO VALINE DE)",
+      "CÉTOLEUCINE",
+      "CÉTOPHÉNYLALANINE",
+      "DL-ALPHA-HYDROXYMÉTHIONINATE DE CALCIUM",
+      "HISTIDINE",
+      "LYSINE",
+      "THRÉONINE",
+      "TRYPTOPHANE L",
+      "TYROSINE"
+    ],
+    "atc": "A16AX",
+    "classe": "Divers medicaments des voies digestives et du metabolisme"
+  },
+  {
+    "dc": "ZALDIAR",
+    "dcis": [
+      "PARACÉTAMOL",
+      "TRAMADOL"
+    ],
+    "atc": "N02AJ13",
+    "classe": "Antalgiques non opioïdes"
+  },
+  {
+    "dc": "TOPREC",
+    "dcis": [
+      "KÉTOPROFÈNE"
+    ],
+    "atc": "M01AE03",
+    "classe": "AINS"
+  },
+  {
+    "dc": "CALCIUM COOPER",
+    "dcis": [
+      "CARBONATE DE CALCIUM"
+    ],
+    "atc": "A12AA04",
+    "classe": "Supplémentation en calcium"
+  },
+  {
+    "dc": "LODINE",
+    "dcis": [
+      "ÉTODOLAC",
+      "ÉTODOLIQUE ACIDE"
+    ],
+    "atc": "M01AB08",
+    "classe": "AINS"
+  },
+  {
+    "dc": "SEREVENT DISKUS",
+    "dcis": [
+      "SALMÉTÉROL"
+    ],
+    "atc": "R03AC12",
+    "classe": "Bronchodilatateurs bêta-2 mimétiques"
+  },
+  {
+    "dc": "CALCIDIA",
+    "dcis": [
+      "CALCIUM (CARBONATE DE)"
+    ],
+    "atc": "A12AA04",
+    "classe": "Supplémentation en calcium"
+  },
+  {
+    "dc": "BI PROFENID LP",
+    "dcis": [
+      "KÉTOPROFÈNE"
+    ],
+    "atc": "M01AE03",
+    "classe": "AINS"
+  },
+  {
+    "dc": "TEMERITDUO",
+    "dcis": [
+      "HYDROCHLOROTHIAZIDE",
+      "NÉBIVOLOL"
+    ],
+    "atc": "C07BB12",
+    "classe": "Bêtabloquants"
+  },
+  {
+    "dc": "TRIFLUCAN",
+    "dcis": [
+      "FLUCONAZOLE"
+    ],
+    "atc": "J02AC01",
+    "classe": "Antifongiques"
+  },
+  {
+    "dc": "HYTACAND",
+    "dcis": [
+      "CANDÉSARTAN",
+      "HYDROCHLOROTHIAZIDE"
+    ],
+    "atc": "C09DA06",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "RULID",
+    "dcis": [
+      "ROXITHROMYCINE"
+    ],
+    "atc": "J01FA06",
+    "classe": "Antibiotiques macrolides"
+  },
+  {
+    "dc": "FLUDEX",
+    "dcis": [
+      "INDAPAMIDE"
+    ],
+    "atc": "C03BA11",
+    "classe": "Sulfamides non associes"
+  },
+  {
+    "dc": "MONURIL",
+    "dcis": [
+      "FOSFOMYCINE TROMÉTAMOL"
+    ],
+    "atc": "J01XX01",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "EFFERALGANMED",
+    "dcis": [
+      "PARACÉTAMOL"
+    ],
+    "atc": "N02BE01",
+    "classe": "Antalgiques non opioïdes"
+  },
+  {
+    "dc": "SEREVENT",
+    "dcis": [
+      "SALMÉTÉROL"
+    ],
+    "atc": "R03AC12",
+    "classe": "Bronchodilatateurs bêta-2 mimétiques"
+  },
+  {
+    "dc": "FASIGYNE",
+    "dcis": [
+      "TINIDAZOLE"
+    ],
+    "atc": "P01AB02",
+    "classe": "Derives du nitroimidazole"
+  },
+  {
+    "dc": "REQUIP",
+    "dcis": [
+      "ROPINIROLE"
+    ],
+    "atc": "N04BC04",
+    "classe": "Antiparkinsoniens"
+  },
+  {
+    "dc": "MOVENTIG",
+    "dcis": [
+      "NALOXÉGOL"
+    ],
+    "atc": "A06AH03",
+    "classe": "Laxatifs"
+  },
+  {
+    "dc": "INDOCID",
+    "dcis": [
+      "INDOMÉTACINE"
+    ],
+    "atc": "M01AB01",
+    "classe": "AINS"
+  },
+  {
+    "dc": "COZAAR",
+    "dcis": [
+      "LOSARTAN"
+    ],
+    "atc": "C09CA01",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "DOSISEPTINE",
+    "dcis": [
+      "CHLORHEXIDINE"
+    ],
+    "atc": "D08AC02",
+    "classe": "Antiseptiques"
+  },
+  {
+    "dc": "OMEXEL L.P.",
+    "dcis": [
+      "TAMSULOSINE"
+    ],
+    "atc": "G04CA02",
+    "classe": "Alpha-bloquants"
+  },
+  {
+    "dc": "CHRONO-INDOCID",
+    "dcis": [
+      "INDOMÉTACINE"
+    ],
+    "atc": "M01AB01",
+    "classe": "AINS"
+  },
+  {
+    "dc": "CERNEVIT",
+    "dcis": [
+      "ACIDE ASCORBIQUE",
+      "ACIDE FOLIQUE",
+      "ALPHA-TOCOPHÉROL",
+      "BIOTINE",
+      "CHOLÉCALCIFÉROL",
+      "COCARBOXYLASE TÉTRAHYDRATÉ",
+      "CYANOCOBALAMINE",
+      "DEXPANTHÉNOL",
+      "NICOTINAMIDE",
+      "PHOSPHATE SODIQUE DE RIBOFLAVINE",
+      "PYRIDOXINE",
+      "RÉTINOL"
+    ],
+    "atc": "B05XC",
+    "classe": "Vitamines"
+  },
+  {
+    "dc": "MICARDISPLUS",
+    "dcis": [
+      "HYDROCHLOROTHIAZIDE",
+      "TELMISARTAN"
+    ],
+    "atc": "C09DA07",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "MIGPRIV",
+    "dcis": [
+      "DL-LYSINE (ACÉTYLSALICYLATE DE)",
+      "MÉTOCLOPRAMIDE"
+    ],
+    "atc": "N02BA71",
+    "classe": "Antiagrégants plaquettaires"
+  },
+  {
+    "dc": "FORTZAAR",
+    "dcis": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN"
+    ],
+    "atc": "C09DA01",
+    "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
     "dc": "HUMALOG MIX25",

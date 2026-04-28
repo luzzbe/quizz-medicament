@@ -105,7 +105,7 @@ function interestingDcs(meds) {
 function buildDciToDcPool(data) {
   const groups = new Map();
   for (const m of data) {
-    if (!m.dcis.length) continue;
+    if (m.dcis.length !== 1) continue;
     const sig = [...m.dcis].sort().join('|');
     let group = groups.get(sig);
     if (!group) {
@@ -142,7 +142,7 @@ const QUESTION_TYPES = {
   },
   'dc-to-dci': {
     label: 'DCI',
-    pool: (data) => data.filter((m) => m.dcis.length > 0 && !isTrivialDcDciMatch(m)),
+    pool: (data) => data.filter((m) => m.dcis.length === 1 && !isTrivialDcDciMatch(m)),
     prompt: (item) => `Quelle est la <b>DCI</b> de <b>${escapeHTML(item.dc)}</b> ?`,
     correct: dciLabel,
     accepted: (item) => [dciLabel(item), item.dcis.join(' '), item.dcis.join(', '), ...item.dcis],
