@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quiz médicaments — DC, DCI et classes pharmacologiques</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230f7b63'/%3E%3Cpath d='M20 38h24v8H20zM20 18h24v8H20zM28 10h8v44h-8z' fill='%23fffdf4'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="app">
+      <section class="hero" aria-labelledby="app-title">
+        <p class="eyebrow">Révision pharmacologie</p>
+        <h1 id="app-title">Quiz médicaments</h1>
+      </section>
+
+      <p class="loading" id="loading">Chargement des données…</p>
+
+      <section id="setup" class="panel" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Configuration</p>
+            <h2>Session mixte IDE</h2>
+          </div>
+          <p class="meta" id="setup-meta"></p>
+        </div>
+
+        <div class="mix-card">
+          <p class="eyebrow">Mélange automatique</p>
+          <p>
+            Le quiz combine surtout <b>DC → classe</b> et <b>DC → DCI</b>,
+            puis ajoute des questions <b>classe → exemple</b> et <b>DCI → DC</b>
+            pour varier la récupération mémoire.
+          </p>
+        </div>
+
+        <div class="setup-row">
+          <fieldset class="choice-grid compact-grid">
+            <legend>Nombre de questions</legend>
+            <label><input type="radio" name="count" value="10" /> <span>10</span></label>
+            <label><input type="radio" name="count" value="20" checked /> <span>20</span></label>
+            <label><input type="radio" name="count" value="40" /> <span>40</span></label>
+            <label><input type="radio" name="count" value="0" /> <span>Tout</span></label>
+          </fieldset>
+        </div>
+
+        <div class="actions">
+          <button id="start" type="button">Démarrer la session</button>
+        </div>
+      </section>
+
+      <section id="quiz" class="panel quiz-panel" hidden>
+        <header class="progress">
+          <div>
+            <span id="progress-text"></span>
+            <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+          </div>
+          <span id="score-text" class="score-pill"></span>
+        </header>
+        <p class="prompt" id="prompt"></p>
+        <div id="answers"></div>
+        <div id="feedback" hidden></div>
+        <div class="quiz-actions">
+          <button id="next" type="button" hidden>Question suivante</button>
+          <button id="abort" type="button" class="link">Quitter la session</button>
+        </div>
+      </section>
+
+      <section id="results" class="panel" hidden>
+        <div class="result-card">
+          <p class="eyebrow">Bilan</p>
+          <h2>Résultats</h2>
+          <p id="result-summary"></p>
+        </div>
+        <h3>Questions à revoir</h3>
+        <ul id="wrong-list"></ul>
+        <div class="actions">
+          <button id="restart" type="button">Recommencer</button>
+          <button id="new-session" type="button" class="secondary">Nouvelle session</button>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
