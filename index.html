@@ -25,16 +25,32 @@
           <p class="meta" id="setup-meta"></p>
         </div>
 
-        <div class="mix-card">
-          <p class="eyebrow">Mélange automatique</p>
-          <p>
-            Le quiz combine surtout <b>DC → classe</b> et <b>DC → DCI</b>,
-            puis ajoute des questions <b>classe → exemple</b> et <b>DCI → DC</b>
-            pour varier la récupération mémoire.
-          </p>
-        </div>
-
         <div class="setup-row">
+          <fieldset class="choice-grid difficulty-grid">
+            <legend>Difficulté</legend>
+            <label>
+              <input type="radio" name="difficulty" value="easy" />
+              <span>
+                <strong>Facile</strong>
+                <small>Top 100 médicaments.</small>
+              </span>
+            </label>
+            <label>
+              <input type="radio" name="difficulty" value="medium" checked />
+              <span>
+                <strong>Intermédiaire</strong>
+                <small>Top 200 médicaments.</small>
+              </span>
+            </label>
+            <label>
+              <input type="radio" name="difficulty" value="hard" />
+              <span>
+                <strong>Difficile</strong>
+                <small>Les 320 médicaments.</small>
+              </span>
+            </label>
+          </fieldset>
+
           <fieldset class="choice-grid compact-grid">
             <legend>Nombre de questions</legend>
             <label><input type="radio" name="count" value="10" /> <span>10</span></label>

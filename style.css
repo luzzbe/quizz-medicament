@@ -174,22 +174,14 @@ legend {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.difficulty-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .setup-row {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-}
-
-.mix-card {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border: 1px solid rgba(15, 123, 99, 0.18);
-  border-radius: 20px;
-  background: linear-gradient(135deg, rgba(223, 242, 236, 0.9), rgba(255, 248, 232, 0.72));
-}
-
-.mix-card p:last-child {
-  margin-bottom: 0;
 }
 
 .choice-grid label {
@@ -504,6 +496,10 @@ button.link {
 @media (max-width: 520px) {
   .compact-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .difficulty-grid {
+    grid-template-columns: 1fr;
   }
 
   .feedback-details {

@@ -14,6 +14,24 @@ const QUESTION_MIX = [
   { type: 'dci-to-dc', weight: 15 },
 ];
 
+const DIFFICULTY_LEVELS = {
+  easy: {
+    label: 'Facile',
+    size: 100,
+    description: 'les 100 médicaments les plus fréquents',
+  },
+  medium: {
+    label: 'Intermédiaire',
+    size: 200,
+    description: 'les 200 premiers médicaments',
+  },
+  hard: {
+    label: 'Difficile',
+    size: Infinity,
+    description: 'tout le dataset du quiz',
+  },
+};
+
 // ---------- helpers ----------
 
 function normalize(s) {
@@ -177,6 +195,11 @@ function takeFromPool(pool, usedSignatures) {
   return fallback ? pool.shift() : null;
 }
 
+function datasetForDifficulty(level) {
+  const config = DIFFICULTY_LEVELS[level] || DIFFICULTY_LEVELS.medium;
+  return state.data.slice(0, config.size);
+}
+
 function buildMixedQueue(data, count) {
   const requested = count > 0 ? count : data.length;
   const pools = buildQuestionPools(data);
@@ -205,10 +228,13 @@ function buildMixedQueue(data, count) {
 
 // ---------- session lifecycle ----------
 
-function startSession(count) {
-  const queue = buildMixedQueue(state.data, count);
+function startSession(count, difficulty) {
+  const quizData = datasetForDifficulty(difficulty);
+  const queue = buildMixedQueue(quizData, count);
   state.session = {
     count,
+    difficulty,
+    data: quizData,
     queue,
     index: 0,
     score: 0,
@@ -244,7 +270,7 @@ function renderQCM(question) {
   const correctList = question.config.accepted(question.item);
   const correctDisplay = question.config.correct(question.item);
   const correctNorm = new Set(correctList.map(normalize));
-  const distractorPool = question.config.distractors(state.data, question.item);
+  const distractorPool = question.config.distractors(state.session.data, question.item);
   const distractors = pickRandom(distractorPool, 3, correctNorm);
   const options = shuffle([correctDisplay, ...distractors]);
 
@@ -353,18 +379,19 @@ function describeDataset() {
   const dcToDci = QUESTION_TYPES['dc-to-dci'].pool(state.data).length;
   const dciToDc = QUESTION_TYPES['dci-to-dc'].pool(state.data).length;
   $('setup-meta').textContent =
-    `${total} médicaments sélectionnés, ${dcToDci} questions DC→DCI et ${dciToDc} questions DCI→DC possibles.`;
+    `${total} médicaments au total, découpés en niveaux progressifs.`;
 }
 
 function getSetupValues() {
+  const difficulty = document.querySelector('input[name=difficulty]:checked').value;
   const count = Number(document.querySelector('input[name=count]:checked').value);
-  return { count };
+  return { count, difficulty };
 }
 
 function bind() {
   $('start').addEventListener('click', () => {
-    const { count } = getSetupValues();
-    startSession(count);
+    const { count, difficulty } = getSetupValues();
+    startSession(count, difficulty);
   });
   $('next').addEventListener('click', () => {
     state.session.index++;
@@ -377,7 +404,7 @@ function bind() {
   });
   $('restart').addEventListener('click', () => {
     const s = state.session;
-    if (s) startSession(s.count);
+    if (s) startSession(s.count, s.difficulty);
   });
   $('new-session').addEventListener('click', () => {
     $('results').hidden = true;
