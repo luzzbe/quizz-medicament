@@ -18,8 +18,7 @@
   {
     "dc": "KARDEGIC",
     "dcis": [
-      "ACÉTYLSALICYLATE DE DL-LYSINE",
-      "DL-LYSINE (ACÉTYLSALICYLATE DE)"
+      "ACÉTYLSALICYLATE DE LYSINE"
     ],
     "atc": "B01AC06",
     "classe": "Antiagrégants plaquettaires"
@@ -41,14 +40,6 @@
     "classe": "Benzodiazépines anxiolytiques"
   },
   {
-    "dc": "ZYMAD",
-    "dcis": [
-      "CHOLÉCALCIFÉROL"
-    ],
-    "atc": "A11CC05",
-    "classe": "Vitamine D"
-  },
-  {
     "dc": "LEVOTHYROX",
     "dcis": [
       "LÉVOTHYROXINE"
@@ -68,9 +59,8 @@
     "dc": "LAMALINE",
     "dcis": [
       "CAFÉINE",
-      "OPIUM (EXTRAIT SEC D')",
-      "PARACÉTAMOL",
-      "POUDRE D'OPIUM"
+      "OPIUM",
+      "PARACÉTAMOL"
     ],
     "atc": "N02BE71",
     "classe": "Antalgiques non opioïdes"
@@ -95,8 +85,8 @@
   {
     "dc": "IZALGI",
     "dcis": [
-      "PARACÉTAMOL",
-      "POUDRE D'OPIUM"
+      "OPIUM",
+      "PARACÉTAMOL"
     ],
     "atc": "N02BE71",
     "classe": "Antalgiques non opioïdes"
@@ -105,20 +95,10 @@
     "dc": "SPASFON",
     "dcis": [
       "PHLOROGLUCINOL",
-      "PHLOROGLUCINOL (TRIMÉTHYL ÉTHER DU)",
-      "PHLOROGLUCINOL HYDRATÉ",
       "TRIMÉTHYLPHLOROGLUCINOL"
     ],
     "atc": "A03AX12",
     "classe": "Antispasmodiques"
-  },
-  {
-    "dc": "UVEDOSE",
-    "dcis": [
-      "CHOLÉCALCIFÉROL"
-    ],
-    "atc": "A11CC05",
-    "classe": "Vitamine D"
   },
   {
     "dc": "DIFFU-K",
@@ -131,8 +111,7 @@
   {
     "dc": "SPASFON LYOC",
     "dcis": [
-      "PHLOROGLUCINOL",
-      "PHLOROGLUCINOL HYDRATÉ"
+      "PHLOROGLUCINOL"
     ],
     "atc": "A03AX12",
     "classe": "Antispasmodiques"
@@ -148,7 +127,7 @@
   {
     "dc": "METEOSPASMYL",
     "dcis": [
-      "ALVÉRINE (CITRATE D')",
+      "ALVÉRINE",
       "SIMÉTICONE"
     ],
     "atc": "A03AX58",
@@ -166,9 +145,7 @@
     "dc": "GAVISCON",
     "dcis": [
       "ALGINATE DE SODIUM",
-      "BICARBONATE DE SODIUM",
-      "SODIUM (ALGINATE DE)",
-      "SODIUM (BICARBONATE DE)"
+      "BICARBONATE DE SODIUM"
     ],
     "atc": "A02BX13",
     "classe": "Antiulcéreux / antiacides"
@@ -226,8 +203,7 @@
   {
     "dc": "TARDYFERON",
     "dcis": [
-      "FERREUX (SULFATE) DESSÉCHÉ",
-      "SULFATE FERREUX DESSÉCHÉ"
+      "SULFATE FERREUX"
     ],
     "atc": "B03AA07",
     "classe": "Supplémentation en fer"
@@ -290,14 +266,6 @@
     "classe": "AINS"
   },
   {
-    "dc": "BETADINE SCRUB",
-    "dcis": [
-      "POVIDONE IODÉE"
-    ],
-    "atc": "D08AG02",
-    "classe": "Antiseptiques"
-  },
-  {
     "dc": "TRULICITY",
     "dcis": [
       "DULAGLUTIDE"
@@ -324,7 +292,8 @@
   {
     "dc": "ENTRESTO",
     "dcis": [
-      "COMPLEXE SODIQUE SACUBITRIL VALSARTAN HÉMIPENTAHYDRATÉ"
+      "SACUBITRIL",
+      "VALSARTAN"
     ],
     "atc": "C09DX04",
     "classe": "Antihypertenseurs IEC/ARA2"
@@ -391,8 +360,7 @@
   {
     "dc": "INEXIUM",
     "dcis": [
-      "ÉSOMÉPRAZOLE",
-      "ÉSOMÉPRAZOLE MAGNÉSIUM"
+      "ÉSOMÉPRAZOLE"
     ],
     "atc": "A02BC05",
     "classe": "Inhibiteurs de la pompe à protons (IPP)"
@@ -427,9 +395,7 @@
   {
     "dc": "DEPAKINE CHRONO",
     "dcis": [
-      "ACIDE VALPROÏQUE",
-      "SODIUM (VALPROATE DE)",
-      "VALPROATE DE SODIUM"
+      "ACIDE VALPROÏQUE"
     ],
     "atc": "N03AG01",
     "classe": "Antiépileptiques"
@@ -462,8 +428,8 @@
     "dc": "BISEPTINE",
     "dcis": [
       "ALCOOL BENZYLIQUE",
-      "BENZALKONIUM (CHLORURE DE)",
-      "CHLORHEXIDINE (DIGLUCONATE DE)"
+      "CHLORHEXIDINE",
+      "CHLORURE DE BENZALKONIUM"
     ],
     "atc": "D08AC52",
     "classe": "Antiseptiques"
@@ -479,7 +445,7 @@
   {
     "dc": "ASPEGIC",
     "dcis": [
-      "DL-LYSINE (ACÉTYLSALICYLATE DE)"
+      "ACÉTYLSALICYLATE DE LYSINE"
     ],
     "atc": "N02BA01",
     "classe": "Antiagrégants plaquettaires"
@@ -495,8 +461,7 @@
   {
     "dc": "HUMALOG",
     "dcis": [
-      "INSULINE LISPRO",
-      "INSULINE LISPRO RECOMBINANTE"
+      "INSULINE LISPRO"
     ],
     "atc": "A10AB04",
     "classe": "Insulines rapides"
@@ -536,21 +501,10 @@
   {
     "dc": "KALEORID LP",
     "dcis": [
-      "CHLORURE DE POTASSIUM",
-      "POTASSIUM (CHLORURE DE)"
+      "CHLORURE DE POTASSIUM"
     ],
     "atc": "A12BA01",
     "classe": "Supplémentation en potassium"
-  },
-  {
-    "dc": "MELAXOSE",
-    "dcis": [
-      "LACTULOSE",
-      "PARAFFINE LIQUIDE",
-      "VASELINE"
-    ],
-    "atc": "A06AA51",
-    "classe": "Laxatifs"
   },
   {
     "dc": "LANTUS SOLOSTAR",
@@ -604,7 +558,6 @@
     "dc": "LIPOROSA",
     "dcis": [
       "ROSUVASTATINE",
-      "ROSUVASTATINE ZINCIQUE",
       "ÉZÉTIMIBE"
     ],
     "atc": "C10BA06",
@@ -629,8 +582,7 @@
   {
     "dc": "DALACINE",
     "dcis": [
-      "CLINDAMYCINE (CHLORHYDRATE DE) HYDRATÉ",
-      "CLINDAMYCINE HYDRATÉ"
+      "CLINDAMYCINE"
     ],
     "atc": "J01FF01",
     "classe": "Antibiotiques"
@@ -687,7 +639,7 @@
   {
     "dc": "FERROSTRANE",
     "dcis": [
-      "SODIUM (FÉRÉDÉTATE DE)"
+      "FÉRÉDÉTATE DE SODIUM"
     ],
     "atc": "B03AB03",
     "classe": "Supplémentation en fer"
@@ -779,18 +731,10 @@
     "dcis": [
       "COLCHICINE",
       "MÉTILSULFATE DE TIÉMONIUM",
-      "POUDRE D'OPIUM"
+      "OPIUM"
     ],
     "atc": "M04AC01",
     "classe": "Antigoutteux"
-  },
-  {
-    "dc": "DEPAKOTE",
-    "dcis": [
-      "DIVALPROATE DE SODIUM"
-    ],
-    "atc": "N03AG01",
-    "classe": "Antiépileptiques"
   },
   {
     "dc": "NEO-MERCAZOLE",
@@ -819,8 +763,7 @@
   {
     "dc": "TERCIAN",
     "dcis": [
-      "CYAMÉMAZINE",
-      "CYAMÉPROMAZINE"
+      "CYAMÉMAZINE"
     ],
     "atc": "N05AA06",
     "classe": "Antipsychotiques"
@@ -860,7 +803,7 @@
   {
     "dc": "BRONCHODUAL",
     "dcis": [
-      "BROMHYDRATE DE FÉNOTÉROL",
+      "FÉNOTÉROL",
       "IPRATROPIUM"
     ],
     "atc": "R03AL01",
@@ -915,14 +858,6 @@
     "classe": "Antalgiques opioïdes"
   },
   {
-    "dc": "KAYEXALATE",
-    "dcis": [
-      "SODIUM (POLYSTYRÈNE SULFONATE DE)"
-    ],
-    "atc": "V03AE01",
-    "classe": "Médicaments de correction métabolique"
-  },
-  {
     "dc": "RESELIP",
     "dcis": [
       "ATORVASTATINE",
@@ -934,8 +869,7 @@
   {
     "dc": "NOZINAN",
     "dcis": [
-      "LÉVOMÉPROMAZINE",
-      "MALÉATE ACIDE DE LÉVOMÉPROMAZINE"
+      "LÉVOMÉPROMAZINE"
     ],
     "atc": "N05AA02",
     "classe": "Antipsychotiques"
@@ -985,27 +919,10 @@
   {
     "dc": "SIFROL",
     "dcis": [
-      "PRAMIPEXOLE (DICHLORHYDRATE DE)"
+      "PRAMIPEXOLE"
     ],
     "atc": "N04BC05",
     "classe": "Antiparkinsoniens"
-  },
-  {
-    "dc": "MICROPAKINE L.P.",
-    "dcis": [
-      "ACIDE VALPROÏQUE",
-      "VALPROATE DE SODIUM"
-    ],
-    "atc": "N03AG01",
-    "classe": "Antiépileptiques"
-  },
-  {
-    "dc": "IMPORTAL",
-    "dcis": [
-      "LACTITOL"
-    ],
-    "atc": "A06AD12",
-    "classe": "Laxatifs"
   },
   {
     "dc": "OROKEN",
@@ -1033,14 +950,6 @@
     "classe": "Antalgiques non opioïdes"
   },
   {
-    "dc": "UN ALFA",
-    "dcis": [
-      "ALFACALCIDOL"
-    ],
-    "atc": "A11CC03",
-    "classe": "Vitamine D"
-  },
-  {
     "dc": "TWICOR",
     "dcis": [
       "ROSUVASTATINE",
@@ -1050,28 +959,12 @@
     "classe": "Hypolipémiants"
   },
   {
-    "dc": "VITAMINE B12 DELAGRANGE",
-    "dcis": [
-      "CYANOCOBALAMINE"
-    ],
-    "atc": "B03BA01",
-    "classe": "Vitamine b12 (cyanocobalamine et derives)"
-  },
-  {
     "dc": "VALIUM",
     "dcis": [
       "DIAZÉPAM"
     ],
     "atc": "N05BA01",
     "classe": "Benzodiazépines anxiolytiques"
-  },
-  {
-    "dc": "ADRIGYL",
-    "dcis": [
-      "CHOLÉCALCIFÉROL"
-    ],
-    "atc": "A11CC05",
-    "classe": "Vitamine D"
   },
   {
     "dc": "XANAX",
@@ -1092,8 +985,7 @@
   {
     "dc": "DEPAKINE",
     "dcis": [
-      "SODIUM (VALPROATE DE)",
-      "VALPROATE DE SODIUM"
+      "ACIDE VALPROÏQUE"
     ],
     "atc": "N03AG01",
     "classe": "Antiépileptiques"
@@ -1130,14 +1022,6 @@
     ],
     "atc": "C03CA01",
     "classe": "Diurétiques de l’anse"
-  },
-  {
-    "dc": "IPRATROPIUM AGUETTANT",
-    "dcis": [
-      "IPRATROPIUM (BROMURE D')"
-    ],
-    "atc": "R03BB01",
-    "classe": "Bronchodilatateurs anticholinergiques"
   },
   {
     "dc": "AUGMENTIN",
@@ -1199,14 +1083,6 @@
     "classe": "Vitamine k"
   },
   {
-    "dc": "DIVALCOTE",
-    "dcis": [
-      "DIVALPROATE DE SODIUM"
-    ],
-    "atc": "N03AG01",
-    "classe": "Antiépileptiques"
-  },
-  {
     "dc": "TAHOR",
     "dcis": [
       "ATORVASTATINE"
@@ -1255,17 +1131,9 @@
     "classe": "Bronchodilatateurs bêta-2 mimétiques"
   },
   {
-    "dc": "DEDROGYL",
-    "dcis": [
-      "CALCIFÉDIOL"
-    ],
-    "atc": "A11CC06",
-    "classe": "Vitamine D"
-  },
-  {
     "dc": "ONBREZ BREEZHALER",
     "dcis": [
-      "INDACATÉROL (MALÉATE D')"
+      "INDACATÉROL"
     ],
     "atc": "R03AC18",
     "classe": "Bronchodilatateurs bêta-2 mimétiques"
@@ -1410,17 +1278,6 @@
     "classe": "Antalgiques opioïdes"
   },
   {
-    "dc": "MOVICOL SANS AROME",
-    "dcis": [
-      "BICARBONATE DE SODIUM",
-      "CHLORURE DE POTASSIUM",
-      "CHLORURE DE SODIUM",
-      "MACROGOL 3350"
-    ],
-    "atc": "A06AD65",
-    "classe": "Laxatifs"
-  },
-  {
     "dc": "MEDIATENSYL LP",
     "dcis": [
       "URAPIDIL"
@@ -1489,35 +1346,6 @@
     "classe": "Antiparkinsoniens"
   },
   {
-    "dc": "TRANSULOSE",
-    "dcis": [
-      "LACTULOSE",
-      "PARAFFINE LIQUIDE",
-      "VASELINE"
-    ],
-    "atc": "A06AA51",
-    "classe": "Laxatifs"
-  },
-  {
-    "dc": "CELESTENE",
-    "dcis": [
-      "BÉTAMETHASONE (PHOSPHATE DE) ET DE DISODIUM",
-      "BÉTAMÉTHASONE"
-    ],
-    "atc": "H02AB01",
-    "classe": "Corticoïdes systémiques"
-  },
-  {
-    "dc": "CITRAFLEET",
-    "dcis": [
-      "ACIDE",
-      "OXYDE DE MAGNÉSIUM LÉGER",
-      "PICOSULFATE DE SODIUM"
-    ],
-    "atc": "A06AB58",
-    "classe": "Laxatifs"
-  },
-  {
     "dc": "APOKINON",
     "dcis": [
       "APOMORPHINE"
@@ -1566,14 +1394,6 @@
     "classe": "Antalgiques opioïdes"
   },
   {
-    "dc": "UN-ALFA",
-    "dcis": [
-      "ALFACALCIDOL"
-    ],
-    "atc": "A11CC03",
-    "classe": "Vitamine D"
-  },
-  {
     "dc": "ATROVENT",
     "dcis": [
       "IPRATROPIUM"
@@ -1610,8 +1430,7 @@
   {
     "dc": "DIPIPERON",
     "dcis": [
-      "PIPAMPÉRONE",
-      "PIPAMPÉRONE (DICHLORHYDRATE DE)"
+      "PIPAMPÉRONE"
     ],
     "atc": "N05AD05",
     "classe": "Antipsychotiques"
@@ -1670,8 +1489,7 @@
   {
     "dc": "CLOPIXOL",
     "dcis": [
-      "DICHLORHYDRATE DE ZUCLOPENTHIXOL",
-      "ZUCLOPENTHIXOL (DICHLORHYDRATE DE)"
+      "ZUCLOPENTHIXOL"
     ],
     "atc": "N05AF05",
     "classe": "Antipsychotiques"
@@ -1679,8 +1497,7 @@
   {
     "dc": "INIPOMP",
     "dcis": [
-      "PANTOPRAZOLE",
-      "PANTOPRAZOLE SODIQUE SESQUIHYDRATÉ"
+      "PANTOPRAZOLE"
     ],
     "atc": "A02BC02",
     "classe": "Inhibiteurs de la pompe à protons (IPP)"
@@ -1756,8 +1573,7 @@
   {
     "dc": "OXYCONTIN LP",
     "dcis": [
-      "OXYCODONE",
-      "OXYCODONE (CHLORHYDRATE D')"
+      "OXYCODONE"
     ],
     "atc": "N02AA05",
     "classe": "Antalgiques opioïdes"
@@ -1781,18 +1597,10 @@
   {
     "dc": "XATRAL",
     "dcis": [
-      "ALFUZOSINE (CHLORHYDRATE D')"
+      "ALFUZOSINE"
     ],
     "atc": "G04CA01",
     "classe": "Alpha-bloquants"
-  },
-  {
-    "dc": "PANTOPRAZOLE ALMUS",
-    "dcis": [
-      "PANTOPRAZOLE SODIQUE SESQUIHYDRATÉ"
-    ],
-    "atc": "A02BC02",
-    "classe": "Inhibiteurs de la pompe à protons (IPP)"
   },
   {
     "dc": "NEUPRO",
@@ -1864,7 +1672,7 @@
   {
     "dc": "MODAMIDE",
     "dcis": [
-      "AMILORIDE (CHLORHYDRATE D') HYDRATÉ"
+      "AMILORIDE"
     ],
     "atc": "C03DB01",
     "classe": "Autres diuretiques epargneurs potassiques"
@@ -1902,17 +1710,9 @@
     "classe": "Antipsychotiques"
   },
   {
-    "dc": "ROCGEL",
-    "dcis": [
-      "ALUMINIUM (OXYDE D') HYDRATÉ"
-    ],
-    "atc": "A02AB01",
-    "classe": "Antiulcéreux / antiacides"
-  },
-  {
     "dc": "PULMODEXANE",
     "dcis": [
-      "BROMHYDRATE DE DEXTROMÉTHORPHANE"
+      "DEXTROMÉTHORPHANE"
     ],
     "atc": "R05DA09",
     "classe": "Alcaloides de l'opium et derives"
@@ -1970,7 +1770,7 @@
   {
     "dc": "ALDOMET",
     "dcis": [
-      "MÉTHYLDOPA SESQUIHYDRATÉ"
+      "MÉTHYLDOPA"
     ],
     "atc": "C02AB02",
     "classe": "Methyldopa"
@@ -2018,14 +1818,6 @@
     "classe": "Hypolipémiants"
   },
   {
-    "dc": "STEROGYL",
-    "dcis": [
-      "ERGOCALCIFÉROL"
-    ],
-    "atc": "A11CC01",
-    "classe": "Vitamine D"
-  },
-  {
     "dc": "PYLERA",
     "dcis": [
       "MÉTRONIDAZOLE",
@@ -2067,14 +1859,6 @@
     ],
     "atc": "R03AC02",
     "classe": "Bronchodilatateurs bêta-2 mimétiques"
-  },
-  {
-    "dc": "ROCALTROL",
-    "dcis": [
-      "CALCITRIOL"
-    ],
-    "atc": "A11CC04",
-    "classe": "Vitamine D"
   },
   {
     "dc": "TERALITHE",
@@ -2216,18 +2000,6 @@
     "classe": "Antipsychotiques"
   },
   {
-    "dc": "FORTRANS",
-    "dcis": [
-      "BICARBONATE DE SODIUM",
-      "CHLORURE DE POTASSIUM",
-      "CHLORURE DE SODIUM",
-      "MACROGOL 4000",
-      "SODIUM"
-    ],
-    "atc": "A06AD65",
-    "classe": "Laxatifs"
-  },
-  {
     "dc": "TETRALYSAL",
     "dcis": [
       "LYMÉCYCLINE"
@@ -2246,8 +2018,7 @@
   {
     "dc": "FUCIDINE",
     "dcis": [
-      "FUSIDIQUE (ACIDE)",
-      "SODIUM (FUSIDATE DE)"
+      "ACIDE FUSIDIQUE"
     ],
     "atc": "J01XC01",
     "classe": "Antibiotiques"
@@ -2269,23 +2040,6 @@
     "classe": "Antivitamines K (AVK)"
   },
   {
-    "dc": "KETOSTERIL",
-    "dcis": [
-      "CALCIUM (ALPHA CÉTO DL ISOLEUCINE DE)",
-      "CALCIUM (ALPHA CÉTO VALINE DE)",
-      "CÉTOLEUCINE",
-      "CÉTOPHÉNYLALANINE",
-      "DL-ALPHA-HYDROXYMÉTHIONINATE DE CALCIUM",
-      "HISTIDINE",
-      "LYSINE",
-      "THRÉONINE",
-      "TRYPTOPHANE L",
-      "TYROSINE"
-    ],
-    "atc": "A16AX",
-    "classe": "Divers medicaments des voies digestives et du metabolisme"
-  },
-  {
     "dc": "ZALDIAR",
     "dcis": [
       "PARACÉTAMOL",
@@ -2303,14 +2057,6 @@
     "classe": "AINS"
   },
   {
-    "dc": "CALCIUM COOPER",
-    "dcis": [
-      "CARBONATE DE CALCIUM"
-    ],
-    "atc": "A12AA04",
-    "classe": "Supplémentation en calcium"
-  },
-  {
     "dc": "LODINE",
     "dcis": [
       "ÉTODOLAC",
@@ -2326,14 +2072,6 @@
     ],
     "atc": "R03AC12",
     "classe": "Bronchodilatateurs bêta-2 mimétiques"
-  },
-  {
-    "dc": "CALCIDIA",
-    "dcis": [
-      "CALCIUM (CARBONATE DE)"
-    ],
-    "atc": "A12AA04",
-    "classe": "Supplémentation en calcium"
   },
   {
     "dc": "BI PROFENID LP",
@@ -2426,14 +2164,6 @@
     "classe": "Antiparkinsoniens"
   },
   {
-    "dc": "MOVENTIG",
-    "dcis": [
-      "NALOXÉGOL"
-    ],
-    "atc": "A06AH03",
-    "classe": "Laxatifs"
-  },
-  {
     "dc": "INDOCID",
     "dcis": [
       "INDOMÉTACINE"
@@ -2474,25 +2204,6 @@
     "classe": "AINS"
   },
   {
-    "dc": "CERNEVIT",
-    "dcis": [
-      "ACIDE ASCORBIQUE",
-      "ACIDE FOLIQUE",
-      "ALPHA-TOCOPHÉROL",
-      "BIOTINE",
-      "CHOLÉCALCIFÉROL",
-      "COCARBOXYLASE TÉTRAHYDRATÉ",
-      "CYANOCOBALAMINE",
-      "DEXPANTHÉNOL",
-      "NICOTINAMIDE",
-      "PHOSPHATE SODIQUE DE RIBOFLAVINE",
-      "PYRIDOXINE",
-      "RÉTINOL"
-    ],
-    "atc": "B05XC",
-    "classe": "Vitamines"
-  },
-  {
     "dc": "MICARDISPLUS",
     "dcis": [
       "HYDROCHLOROTHIAZIDE",
@@ -2504,7 +2215,7 @@
   {
     "dc": "MIGPRIV",
     "dcis": [
-      "DL-LYSINE (ACÉTYLSALICYLATE DE)",
+      "ACÉTYLSALICYLATE DE LYSINE",
       "MÉTOCLOPRAMIDE"
     ],
     "atc": "N02BA71",
@@ -2520,11 +2231,247 @@
     "classe": "Antihypertenseurs IEC/ARA2"
   },
   {
+    "dc": "RISPERDALCONSTA L.P.",
+    "dcis": [
+      "RISPÉRIDONE"
+    ],
+    "atc": "N05AX08",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "FIASP PENFILL",
+    "dcis": [
+      "INSULINE ASPARTE"
+    ],
+    "atc": "A10AB05",
+    "classe": "Insulines rapides"
+  },
+  {
+    "dc": "ASPIRINE UPSA",
+    "dcis": [
+      "ACIDE ACÉTYLSALICYLIQUE"
+    ],
+    "atc": "N02BA01",
+    "classe": "Antiagrégants plaquettaires"
+  },
+  {
+    "dc": "GRANUDOXY",
+    "dcis": [
+      "DOXYCYCLINE"
+    ],
+    "atc": "J01AA02",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "DOXYLIS",
+    "dcis": [
+      "DOXYCYCLINE"
+    ],
+    "atc": "J01AA02",
+    "classe": "Antibiotiques"
+  },
+  {
+    "dc": "TOPALGIC LP",
+    "dcis": [
+      "TRAMADOL"
+    ],
+    "atc": "N02AX02",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "MICARDIS",
+    "dcis": [
+      "TELMISARTAN"
+    ],
+    "atc": "C09CA07",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "ROCEPHINE",
+    "dcis": [
+      "CEFTRIAXONE"
+    ],
+    "atc": "J01DD04",
+    "classe": "Antibiotiques céphalosporines"
+  },
+  {
+    "dc": "MOSCONTIN",
+    "dcis": [
+      "MORPHINE"
+    ],
+    "atc": "N02AA01",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "ROVAMYCINE",
+    "dcis": [
+      "SPIRAMYCINE"
+    ],
+    "atc": "J01FA02",
+    "classe": "Antibiotiques macrolides"
+  },
+  {
+    "dc": "DOPACEPTIN",
+    "dcis": [
+      "APOMORPHINE"
+    ],
+    "atc": "N04BC07",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "BUCCOLAM",
+    "dcis": [
+      "MIDAZOLAM"
+    ],
+    "atc": "N05CD08",
+    "classe": "Hypnotiques"
+  },
+  {
+    "dc": "RENITEC",
+    "dcis": [
+      "ÉNALAPRIL"
+    ],
+    "atc": "C09AA02",
+    "classe": "Antihypertenseurs IEC/ARA2"
+  },
+  {
+    "dc": "EUPANTOL",
+    "dcis": [
+      "PANTOPRAZOLE"
+    ],
+    "atc": "A02BC02",
+    "classe": "Inhibiteurs de la pompe à protons (IPP)"
+  },
+  {
+    "dc": "APIDRA",
+    "dcis": [
+      "INSULINE GLULISINE"
+    ],
+    "atc": "A10AB06",
+    "classe": "Insulines rapides"
+  },
+  {
+    "dc": "KEFORAL",
+    "dcis": [
+      "CÉFALEXINE"
+    ],
+    "atc": "J01DB01",
+    "classe": "Antibiotiques céphalosporines"
+  },
+  {
+    "dc": "ORELOX",
+    "dcis": [
+      "CEFPODOXIME PROXÉTIL"
+    ],
+    "atc": "J01DD13",
+    "classe": "Antibiotiques céphalosporines"
+  },
+  {
+    "dc": "ROWASA",
+    "dcis": [
+      "MÉSALAZINE"
+    ],
+    "atc": "A07EC02",
+    "classe": "Antidiarrhéiques"
+  },
+  {
+    "dc": "SOLIAN",
+    "dcis": [
+      "AMISULPRIDE"
+    ],
+    "atc": "N05AL05",
+    "classe": "Antipsychotiques"
+  },
+  {
     "dc": "HUMALOG MIX25",
     "dcis": [
-      "INSULINE LISPRO RECOMBINANTE"
+      "INSULINE LISPRO"
     ],
     "atc": "A10AD04",
     "classe": "Insulines et analogues daction intermediaire et à debut daction rapide pour injection"
+  },
+  {
+    "dc": "COMBODART",
+    "dcis": [
+      "DUTASTÉRIDE",
+      "TAMSULOSINE"
+    ],
+    "atc": "G04CA52",
+    "classe": "Alpha-bloquants"
+  },
+  {
+    "dc": "MOVICOL CHOCOLAT",
+    "dcis": [
+      "BICARBONATE DE SODIUM",
+      "CHLORURE DE POTASSIUM",
+      "CHLORURE DE SODIUM",
+      "MACROGOL 3350"
+    ],
+    "atc": "A06AD65",
+    "classe": "Laxatifs"
+  },
+  {
+    "dc": "XEROQUEL LP",
+    "dcis": [
+      "QUÉTIAPINE"
+    ],
+    "atc": "N05AH04",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "NEULEPTIL",
+    "dcis": [
+      "PROPÉRICIAZINE"
+    ],
+    "atc": "N05AC01",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "TIXTAR",
+    "dcis": [
+      "RIFAXIMINE"
+    ],
+    "atc": "A07AA11",
+    "classe": "Antidiarrhéiques"
+  },
+  {
+    "dc": "CONTRAMAL",
+    "dcis": [
+      "TRAMADOL"
+    ],
+    "atc": "N02AX02",
+    "classe": "Antalgiques opioïdes"
+  },
+  {
+    "dc": "DICETEL",
+    "dcis": [
+      "PINAVÉRIUM"
+    ],
+    "atc": "A03AX04",
+    "classe": "Autres medicaments pour les troubles fonctionnels intestinaux"
+  },
+  {
+    "dc": "FLUANXOL LP",
+    "dcis": [
+      "FLUPENTIXOL"
+    ],
+    "atc": "N05AF01",
+    "classe": "Antipsychotiques"
+  },
+  {
+    "dc": "ENTOCORT",
+    "dcis": [
+      "BUDÉSONIDE"
+    ],
+    "atc": "A07EA06",
+    "classe": "Antidiarrhéiques"
+  },
+  {
+    "dc": "DELPRIM",
+    "dcis": [
+      "TRIMÉTHOPRIME"
+    ],
+    "atc": "J01EA01",
+    "classe": "Antibiotiques"
   }
 ]
